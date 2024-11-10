@@ -104,14 +104,14 @@ const Navbar = () => {
           </aside>
           <aside>
             <button
-              className={`${darkMode ? "bg-dark" : ""}`}
+              className={`${darkMode ? "bg-dark" : "bg-secondary"}`}
               onClick={toggleSidebar}
             >
               <img
                 src={HamburgerIcon}
                 alt="Hamburger Icon"
                 style={{
-                  filter: `${darkMode ? "invert(1) grayscale(1)" : ""}`,
+                  filter: `${darkMode ? "invert(1)" : ""}`,
                 }}
                 className={`w-6 h-6`}
               />
