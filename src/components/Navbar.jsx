@@ -98,7 +98,7 @@ const Navbar = () => {
         </section>
 
         {/* Mobile Navbar */}
-        <section className="flex z-0 md:hidden text-start flex-row justify-between items-center p-8">
+        <section className="flex z-0 md:hidden text-start flex-row justify-between items-center p-6">
           <aside className="w-[30%]">
             <img src={logo} alt="IKN SmartCity" className="w-[140px] h-auto" />
           </aside>
@@ -113,7 +113,7 @@ const Navbar = () => {
                 style={{
                   filter: `${darkMode ? "invert(1)" : ""}`,
                 }}
-                className={`w-6 h-6`}
+                className={`w-5 h-5`}
               />
             </button>
           </aside>
@@ -130,32 +130,32 @@ const Navbar = () => {
       <section
         className={`absolute top-0 ${
           sidebar ? "left-0" : "left-[-100%]"
-        } transition-left duration-300 ease-in z-20 flex flex-col md:hidden w-3/4 sm:w-2/3 h-full justify-start items-center gap-20 pt-20 ${
+        } transition-left duration-300 ease-in z-20 flex flex-col md:hidden w-3/4 sm:w-2/3 h-full justify-start items-center gap-20 pt-10 ${
           darkMode ? "bg-dark" : "bg-secondary"
         }`}
       >
-        <aside className="w-auto">
-          <img src={logo} alt="IKN SmartCity" className="w-[140px] h-auto" />
+        <aside className="w-4/5">
+          <img src={logo} alt="IKN SmartCity" className="w-[120px] h-auto" />
         </aside>
         <aside className="w-[30%] flex flex-col gap-10 justify-center">
           <a
             onClick={toggleSidebar}
             href="#jelajahi"
-            className="font-poppins cursor-pointer font-semibold text-[20px] font-poppins text-dark hover:text-primary dark:text-secondary dark:hover:text-primary"
+            className="font-poppins cursor-pointer font-semibold text-[20px] font-poppins text-dark hover:text-primary dark:text-secondary dark:hover:text-primary text-[16px]"
           >
             {t("jelajahi")}
           </a>
           <a
             onClick={toggleSidebar}
             href="#proyek"
-            className="font-poppins cursor-pointer font-semibold text-[20px] font-poppins text-dark hover:text-primary dark:text-secondary dark:hover:text-primary"
+            className="font-poppins cursor-pointer font-semibold text-[20px] font-poppins text-dark hover:text-primary dark:text-secondary dark:hover:text-primary text-[16px]"
           >
             {t("proyek")}
           </a>
           <a
             onClick={toggleSidebar}
             href="#berita"
-            className="font-poppins cursor-pointer font-semibold text-[20px] font-poppins text-dark hover:text-primary dark:text-secondary dark:hover:text-primary"
+            className="font-poppins cursor-pointer font-semibold text-[20px] font-poppins text-dark hover:text-primary dark:text-secondary dark:hover:text-primary text-[16px]"
           >
             {t("berita")}
           </a>
