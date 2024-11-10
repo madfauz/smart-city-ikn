@@ -6,6 +6,37 @@ import berita3 from "../assets/berita-3.jpeg";
 const News = () => {
   return (
     <div>
+      <div>
+        <p class="mb-2 text-[40px] font-bold tracking-tight text-gray-900">
+          Berita
+        </p>
+        <p class="text-[16px] mb-3 text-gray-700">
+          Berita terkini mengenai inovasi dan proyek smart city yang membangun
+          kota cerdas
+        </p>
+      </div>
+      <div class="flex justify-left gap-2 flex-wrap ml-16 mt-10">
+        <span class="bg-primary rounded-lg flex items-center justify-center font-semibold text-16px text-white w-[150px] h-[40px] ">
+          {" "}
+          SEMUA
+        </span>
+        <span class="leading-[1.5] border border-gray bg-white rounded-lg flex items-center justify-center font-regular text-16px text-gray w-[150px] h-[40px] ">
+          {" "}
+          INFRASTUKTUR
+        </span>
+        <span class="leading-[1.5] border border-gray bg-white rounded-lg flex items-center justify-center font-regular text-16px text-gray w-[150px] h-[40px] ">
+          {" "}
+          DIGITALISASI
+        </span>
+        <span class="leading-[1.5] border border-gray bg-white rounded-lg flex items-center justify-center font-regular text-16px text-gray w-[150px] h-[40px] ">
+          {" "}
+          TRANSPORTASI
+        </span>
+        <span class="leading-[1.5] border border-gray bg-white rounded-lg flex items-center justify-center font-regular text-16px text-gray w-[150px] h-[40px] ">
+          {" "}
+          ADMINISTRASI
+        </span>
+      </div>
       <div className="p-10">
         <div className="grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
           <div className="max-w-sm rounded overflow-hidden shadow-lg">
@@ -80,7 +111,6 @@ const News = () => {
               </p>
             </div>
           </div>
-
           <div className="max-w-sm rounded overflow-hidden shadow-lg">
             <div className="px-6 max-w-sm w-[384px] h-[206px] ">
               <img
@@ -118,20 +148,6 @@ const News = () => {
             </div>
           </div>
         </div>
-      </div>
-      <div class="flex justify-center gap-2 flex-wrap p-4">
-        <span class="bg-gray-100 rounded-full px-3 py-1 text-sm font-semibold text-gray-600 text">
-          #photography
-        </span>
-        <span class="bg-gray-100 rounded-full px-3 py-1 text-sm font-semibold text-gray-600">
-          #travel
-        </span>
-        <span class="bg-gray-100 rounded-full px-3 py-1 text-sm font-semibold text-gray-600">
-          #winter
-        </span>
-        <span class="bg-gray-100 rounded-full px-3 py-1 text-sm font-semibold text-gray-600">
-          #chill
-        </span>
       </div>
     </div>
   );
