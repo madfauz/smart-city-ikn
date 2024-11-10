@@ -1,8 +1,14 @@
-/** @type {import('tailwindcss').Config} */
 export default {
-  content: [],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      spacing: {
+        vm: "8px",
+        sm: "12px",
+        md: "16px",
+        lg: "20px",
+        xl: "24px",
+      },
       colors: {
         primary: "#D3A976",
         secondary: "#FCF7F0",
