@@ -7,8 +7,8 @@ const News = () => {
   return (
     <div className="container mx-auto px-4">
       {/* Title Section */}
-      <div className="flex flex-col items-center justify-center text-center">
-        <p className="mb-2 text-4xl sm:text-4xl md:text-5xl font-bold tracking-tight text-gray-900">
+      <div className="flex flex-col items-center justify-center text-center ">
+        <p className="pt-8 mb-2 text-4xl sm:text-4xl md:text-5xl font-bold tracking-tight text-gray-900">
           Berita
         </p>
 
@@ -41,7 +41,7 @@ const News = () => {
       <div className="overflow-x-auto">
         <div className="inline-flex sm:grid sm:grid-cols-2 lg:grid-cols-3 gap-4 p-10 md:px-20">
           {/* Card 1 */}
-          <div className="bg-white rounded-xl shadow-lg overflow-hidden w-72 sm:w-auto">
+          <div className="hover:cursor-pointer bg-white rounded-xl shadow-lg overflow-hidden w-72 sm:w-auto">
             <div className="relative">
               <div className="p-4">
                 <div className="bg-primary m-4 absolute top-0 left-0 bg-indigo-500 text-white font-semibold px-2 py-1 rounded-lg">
@@ -73,7 +73,7 @@ const News = () => {
           </div>
 
           {/* Card 2 */}
-          <div className="bg-white rounded-xl shadow-lg overflow-hidden w-72 sm:w-auto">
+          <div className="hover:cursor-pointer bg-white rounded-xl shadow-lg overflow-hidden w-72 sm:w-auto">
             <div className="relative">
               <div className="p-4">
                 <div className="bg-primary m-4 absolute top-0 left-0 bg-indigo-500 text-white font-semibold px-2 py-1 rounded-lg">
@@ -103,7 +103,7 @@ const News = () => {
           </div>
 
           {/* Card 3 */}
-          <div className="bg-white rounded-xl shadow-lg overflow-hidden w-72 sm:w-auto">
+          <div className="hover:cursor-pointer bg-white rounded-xl shadow-lg overflow-hidden w-72 sm:w-auto">
             <div className="relative">
               <div className="p-4">
                 <div className="bg-primary m-4 absolute top-0 left-0 bg-indigo-500 text-white font-semibold px-2 py-1 rounded-lg">
