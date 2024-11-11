@@ -11,6 +11,11 @@ const Layout = () => {
   return (
     <React.Fragment>
       <main className="flex flex-col w-[100%] items-center justify-start min-h-screen m-auto">
+        <Navbar />
+        <Carousel />
+        <Feature />
+        <Project />
+        <Desc />
         <News />
         <Footer />
       </main>
