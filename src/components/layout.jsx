@@ -10,12 +10,7 @@ import Footer from "./Footer";
 const Layout = () => {
   return (
     <React.Fragment>
-      <Navbar />
       <main className="flex flex-col w-[100%] items-center justify-start min-h-screen m-auto">
-        <Carousel />
-        <Feature />
-        <Project />
-        <Desc />
         <News />
         <Footer />
       </main>
