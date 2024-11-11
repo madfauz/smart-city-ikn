@@ -1,7 +1,6 @@
-/** @type {import('tailwindcss').Config} */
 export default {
   darkMode: "class",
-  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
       fontFamily: {
@@ -18,6 +17,8 @@ export default {
         primary: "#D3A976",
         secondary: "#FCF7F0",
         dark: "#080809",
+        gray: "#666666",
+        semidark: "2B2B2B",
       },
       boxShadow: {
         "custom-dark": "0 2px 54px rgba(170, 170, 170, 0.28)",

@@ -3,24 +3,27 @@ import projectKereta from "../assets/project-kereta.jpeg";
 import projectMall from "../assets/project-mall.jpg";
 import projectPlaza from "../assets/project-plaza.jpg";
 import projectTaxi from "../assets/project-taxi.jpeg";
+import { useTranslation } from "react-i18next";
 
 const Project = () => {
+  const { t, i18n } = useTranslation();
+
   return (
-    <div className="relative mt-[100px] flex flex-col gap-4 px-sm sm:px-sm md:px-md lg:px-lg xl:px-xl">
+    <div
+      className={`relative z-20 flex mt-[100px] flex-col gap-4 px-sm sm:px-sm md:px-md lg:px-lg xl:px-xl dark:bg-dark bg-secondary`}
+    >
       <section className="flex flex-col gap-2">
-        <h2 className="font-poppins font-semibold text-[28px] text-center">
-          Proyek Terkini
+        <h2 className="font-poppins font-semibold text-[28px] text-center text-dark dark:text-secondary">
+          {t("konten-proyek.judul")}
         </h2>
-        <p className="font-poppins font-normal text-[15px] text-center">
-          IKN Smart City menggabungkan teknologi canggih untuk menciptakan kota
-          yang efisien, ramah lingkungan, dan berkelanjutan, dengan fokus pada
-          peningkatan kualitas hidup semua orang.
+        <p className="font-poppins font-normal text-[15px] text-center text-gray dark:text-secondary">
+          {t("konten-proyek.deskripsi")}
         </p>
       </section>
 
       <section
         id="proyek"
-        className=" flex flex-wrap xl:flex-nowrap flex-row gap-6 w-full h-[700px]"
+        className=" flex flex-wrap xl:flex-nowrap flex-row gap-6 w-full xl:h-[700px]"
       >
         <aside className="flex flex-col sm:flex-row xl:flex-col gap-6 basis-full xl:basis-4/12">
           <div className="relative rounded-[10px] w-full sm:w-1/2 xl:w-auto xl:h-2/3">
@@ -31,15 +34,15 @@ const Project = () => {
               alt="project-plaza"
             />
             <span className="font-poppins font-semibold absolute z-20 top-0 left-0 px-4 py-2 text-[20px] text-white bg-primary rounded-tl-[10px] rounded-br-[10px]">
-              Kawasan Terbuka
+              {t("konten-proyek.tipe-proyek.proyek-1")}
             </span>
 
             <div className="absolute z-20 bottom-4 left-4 text-white">
               <span className="font-poppins font-semibold text-[20px]">
-                Plaza Bhineka
+                {t("konten-proyek.judul-proyek.proyek-1")}
               </span>
               <p className="font-poppins font-light italic text-[15px] line-clamp-2">
-                Bagian dari Sumbu Kebangsaan Nusantara.
+                {t("konten-proyek.deskripsi-proyek.proyek-1")}
               </p>
             </div>
           </div>
@@ -51,16 +54,15 @@ const Project = () => {
               alt="project-taxi"
             />
             <span className="font-poppins font-semibold absolute z-20 top-0 left-0 px-4 py-2 text-[20px] text-white bg-primary rounded-tl-[10px] rounded-br-[10px]">
-              Transportasi
+              {t("konten-proyek.tipe-proyek.proyek-2")}
             </span>
 
             <div className="absolute z-20 bottom-4 left-4 text-white">
               <span className="font-poppins font-semibold text-[20px]">
-                Sky Taxi IKN
+                {t("konten-proyek.judul-proyek.proyek-2")}
               </span>
               <p className="font-poppins font-light italic text-[15px] line-clamp-2">
-                Taksi tanpa awak dan tanpa penumpang, yang memiliki kapasitas
-                lima penumpang.
+                {t("konten-proyek.deskripsi-proyek.proyek-2")}
               </p>
             </div>
           </div>
@@ -74,15 +76,15 @@ const Project = () => {
               alt="project-mall"
             />
             <span className="font-poppins font-semibold absolute z-20 top-0 left-0 px-4 py-2 text-[20px] text-white bg-primary rounded-tl-[10px] rounded-br-[10px]">
-              Infrastruktur
+              {t("konten-proyek.tipe-proyek.proyek-3")}
             </span>
 
             <div className="absolute z-20 bottom-4 left-4 text-white">
               <span className="font-poppins font-semibold text-[20px]">
-                CBD Mall
+                {t("konten-proyek.judul-proyek.proyek-3")}
               </span>
               <p className="font-poppins font-light italic text-[15px] line-clamp-2">
-                Pusat ekonomi, bisnis, dan hiburan.
+                {t("konten-proyek.deskripsi-proyek.proyek-3")}
               </p>
             </div>
           </div>
@@ -96,15 +98,15 @@ const Project = () => {
               alt="project-charging"
             />
             <span className="font-poppins font-semibold absolute z-20 top-0 left-0 px-4 py-2 text-[20px] text-white bg-primary rounded-tl-[10px] rounded-br-[10px]">
-              Transportasi
+              {t("konten-proyek.tipe-proyek.proyek-4")}
             </span>
 
             <div className="absolute z-20 bottom-4 left-4 text-white">
               <span className="font-poppins font-semibold text-[20px]">
-                Charging Lane
+                {t("konten-proyek.judul-proyek.proyek-4")}
               </span>
               <p className="font-poppins font-light italic text-[15px] line-clamp-2">
-                Jalan yang dapat mengisi ulang daya mobil listrik di tol.
+                {t("konten-proyek.deskripsi-proyek.proyek-4")}
               </p>
             </div>
           </div>
@@ -116,16 +118,15 @@ const Project = () => {
               alt="project-kereta"
             />
             <span className="font-poppins font-semibold absolute z-20 top-0 left-0 px-4 py-2 text-[20px] text-white bg-primary rounded-tl-[10px] rounded-br-[10px]">
-              Transportasi
+              {t("konten-proyek.tipe-proyek.proyek-5")}
             </span>
 
             <div className="absolute z-20 bottom-4 left-4 text-white">
               <span className="font-poppins font-semibold text-[20px]">
-                Kereta Otonom
+                {t("konten-proyek.judul-proyek.proyek-5")}
               </span>
               <p className="font-poppins font-light italic text-[15px] line-clamp-2">
-                Transportasi massal berupa kereta berbasis elektrik yang tidak
-                memerlukan rel konvensional.
+                {t("konten-proyek.deskripsi-proyek.proyek-5")}
               </p>
             </div>
           </div>

@@ -1,5 +1,31 @@
 {
   "jelajahi": "Explore",
   "proyek": "Project",
-  "berita": "News"
+  "berita": "News",
+
+  "konten-proyek": {
+    "judul": "Latest Projects",
+    "deskripsi": "IKN Smart City combines advanced technologies to create an efficient, environmentally friendly and sustainable city, with a focus on improving the quality of life for everyone.",
+    "tipe-proyek": {
+      "proyek-1": "Open Area",
+      "proyek-2": "Transportation",
+      "proyek-3": "Infrastructure",
+      "proyek-4": "Transportation",
+      "proyek-5": "Transportation"
+    },
+    "judul-proyek": {
+      "proyek-1": "Plaza Bhinneka",
+      "proyek-2": "Sky Taxi IKN",
+      "proyek-3": "CBD Mall",
+      "proyek-4": "Charging Lane",
+      "proyek-5": "Autonomous Train"
+    },
+    "deskripsi-proyek": {
+      "proyek-1": "Part of the Nusantara National Axis.",
+      "proyek-2": "An unmanned and passenger-free taxi, which has a capacity of five passengers.",
+      "proyek-3": "The center of economy, business and entertainment.",
+      "proyek-4": "Roads that can recharge electric cars on toll roads.",
+      "proyek-5": "Mass transportation in the form of electric-based trains that do not require conventional rails."
+    }
+  }
 }
