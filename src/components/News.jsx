@@ -20,7 +20,7 @@ const News = () => {
       </div>
 
       {/* Filter Section*/}
-      <div className="flex justify-start gap-4 flex-wrap ml-4 md:ml-8 lg:ml-16 mt-4 md:mt-8 lg:mt-10 hidden md:flex">
+      <div className="flex justify-start gap-4 flex-wrap  hidden md:flex px-4">
         <span className="bg-primary rounded-lg flex items-center justify-center font-semibold text-base lg:text-lg text-white py-2 px-4 md:py-3 md:px-6">
           {t("kategori-konten.kategori-1")}
         </span>
@@ -40,7 +40,7 @@ const News = () => {
 
       {/* News Section */}
       <div className="overflow-x-auto">
-        <div className="inline-flex sm:grid sm:grid-cols-2 lg:grid-cols-3 gap-4 p-10 md:px-20 ">
+        <div className="inline-flex sm:grid sm:grid-cols-2 lg:grid-cols-3 gap-4 py-10  ">
           {/* Card 1 */}
           <div className="hover:shadow-none hover:border hover:border-gray hover:border-opacity-40 bg-white dark:hover:border-primary dark:bg-dark dark:border-2 dark:border-opacity-20 dark:border-white rounded-xl shadow-lg dark:shadow-none hover:cursor-pointer overflow-hidden w-72 sm:w-auto">
             <div className="relative">
