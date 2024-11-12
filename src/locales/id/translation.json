@@ -1,5 +1,36 @@
 {
   "jelajahi": "Jelajahi",
   "proyek": "Proyek",
-  "berita": "Berita"
+  "berita": "Berita",
+
+  "konten-proyek": {
+    "judul": "Proyek Terkini",
+    "deskripsi": "IKN Smart City menggabungkan teknologi canggih untuk menciptakan kota yang efisien, ramah lingkungan, dan berkelanjutan, dengan fokus pada peningkatan kualitas hidup semua orang.",
+    "tipe-proyek": {
+      "proyek-1": "Kawasan Terbuka",
+      "proyek-2": "Transportasi",
+      "proyek-3": "Infrastruktur",
+      "proyek-4": "Transportasi",
+      "proyek-5": "Transportasi"
+    },
+    "judul-proyek": {
+      "proyek-1": "Plaza Bhinneka",
+      "proyek-2": "Sky Taxi IKN",
+      "proyek-3": "CBD Mall",
+      "proyek-4": "Charging Lane",
+      "proyek-5": "Kereta Otonom"
+    },
+    "deskripsi-proyek": {
+      "proyek-1": "Bagian dari Sumbu Kebangsaan Nusantara.",
+      "proyek-2": "Taksi tanpa awak dan tanpa penumpang, yang memiliki kapasitas lima penumpang.",
+      "proyek-3": "Pusat ekonomi, bisnis, dan hiburan.",
+      "proyek-4": "Jalan yang dapat mengisi ulang daya mobil listrik di tol.",
+      "proyek-5": "Transportasi massal berupa kereta berbasis elektrik yang tidak memerlukan rel konvensional."
+    }
+  },
+
+  "konten-desc": {
+    "judul": "Ayo menuju masa depan bersama IKN Smart City",
+    "deskripsi": "Visi kami dalam membangun IKN Smart City adalah untuk membangun kota yang terintegrasi dengan teknologi yang dapat meningkatkan kualitas hidup, efisiensi operasional, keberlanjutan, dan pengalaman warga dalam kota."
+  }
 }
