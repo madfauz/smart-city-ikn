@@ -62,7 +62,7 @@ const News = () => {
               <div className="hover:underline dark:hover:underline dark:text-white text-lg font-bold text-dark mb-2 line-clamp-2">
                 {t("card-berita.judul_berita.berita-1")}
               </div>
-              <p className="text-gray font-regular text-sm line-clamp-5 dark:text-dark">
+              <p className="text-gray font-regular text-sm line-clamp-5">
                 {t("card-berita.isi_berita.berita-1")}
               </p>
             </div>
