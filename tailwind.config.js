@@ -18,7 +18,7 @@ export default {
         secondary: "#FCF7F0",
         dark: "#080809",
         gray: "#666666",
-        semidark: "2B2B2B",
+        semidark: "#2B2B2B",
       },
       boxShadow: {
         "custom-dark": "0 2px 54px rgba(170, 170, 170, 0.28)",

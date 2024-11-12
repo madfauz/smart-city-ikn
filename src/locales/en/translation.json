@@ -31,5 +31,61 @@
   "konten-desc": {
     "judul": "Let's move towards the future with IKN Smart City",
     "deskripsi": "Our vision in building IKN Smart City is to build a city integrated with technology that can improve the quality of life, operational efficiency, sustainability, and experience of residents in the city."
+  },
+
+  "bagian_berita": {
+    "header_berita": "News",
+    "deskripsi_berita": "Latest news about smart city innovations and projects that build a smart city"
+  },
+
+  "kategori-konten": {
+    "kategori-1": "ALL",
+    "kategori-2": "INFRASTRUCTURE",
+    "kategori-3": "DIGITALIZATION",
+    "kategori-4": "TRANSPORTATION",
+    "kategori-5": "ADMINISTRATION"
+  },
+
+  "card-berita": {
+    "judul_berita": {
+      "berita-1": "Towards a Sustainable Future with Smart Lighting Technology in the New Capital",
+      "berita-2": "Villages Around Nusantara Become Digital Village Study Centers",
+      "berita-3": "Hermina Hospital to Build International Standard Hospital in IKN"
+    },
+    "tag_berita": {
+      "berita-1": "#INFRASTRUCTURE",
+      "berita-2": "#DIGITALIZATION",
+      "berita-3": "#INFRASTRUCTURE"
+    },
+    "tanggal_berita": {
+      "berita-1": "25 April 2023",
+      "berita-2": "27 February 2023",
+      "berita-3": "21 June 2023"
+    },
+    "isi_berita": {
+      "berita-1": "As part of the long-term planning in developing the new capital city of Indonesia, the Indonesian Capital City Authority (OIKN) is seriously considering the use of smart lighting technology to create a smart and environmentally friendly city. According to OIKN Secretary Achmad Jaka Santos Adiwijaya, smart lighting can provide many benefits such as significant cost savings, reduced carbon emissions, and light pollution. In connection with the mission of the global investment exhibition at Hannover Messe 2023, OIKN sent a delegation to visit one of Europe's leading smart lighting companies, LUG, in Zielona Gora, Poland. The OIKN delegation led by OIKN Secretary Achmad Jaka Santos Adiwijaya, OIKN Chief Urban Mobility Resdiansyah, and Head of the Bureau of Finance, State Property, and Assets Under Control, Muji Budda'wah, had the opportunity to learn about LUG's 30 years of experience in providing professional lighting solutions and their potential to invest in Nusantara",
+      "berita-2": "Bukit Raya Village, the first Digital Village (Smart Village) in Penajam Paser Utara, East Kalimantan or in the Capital City of the Archipelago, is now a pilot village as well as a study center for other villages. Since it was inaugurated as a Digital Village in August 2022, four villages have come to study in Bukit Raya, three villages from East Kalimantan, namely Sidorejo Village, Gunung Intan Babulu and Sesulu, while one village is from Central Kalimantan. The group from Muara Plantau Village, Central Kalimantan came by land, traveling 13 hours specifically to get here, said Bukit Raya Village Secretary, Adi Suriyadi. According to Adi, they came in three cars, consisting of almost all village officials from the Village Head to the RT Head. They want to learn from us how to become a digital village, said Adi.",
+      "berita-3": "Hermina will build an international standard hospital in the Indonesian Capital City (IKN) area. This hospital is targeted to be operational in August 2024. While many investors are waiting to invest in IKN, we Hermina are ready to build a hospital that is definitely needed by the community who are currently building the National Capital City in IKN, said President Director of PT Medikaloka Hermina Tbk Hasmoro at the Signing of the Cooperation Agreement for the Construction of an International Standard Hospital, at Hermina Tower, Central Jakarta, Tuesday (20/06/2023)."
+    }
+  },
+
+  "footer": {
+    "baris-pertama": {
+      "judul": "IKN Smart City",
+      "list-1": "Visit IKN Smart City"
+    },
+    "baris-kedua": {
+      "judul": "Information",
+      "list-1": "News",
+      "list-2": "Latest Project"
+    },
+
+    "baris-ketiga": {
+      "judul": "Social Media",
+      "list-1": "Instagram",
+      "list-2": "Facebook",
+      "list-3": "Twitter",
+      "list-4": "Youtube"
+    }
   }
 }

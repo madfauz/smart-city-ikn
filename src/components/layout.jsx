@@ -18,6 +18,7 @@ const Layout = () => {
         <Project />
         <Desc />
         <News />
+        <Footer />
       </main>
     </React.Fragment>
   );

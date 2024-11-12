@@ -1,7 +1,9 @@
 import React from "react";
 import logo2 from "../assets/logo_ikn_smartcity_dark.svg";
+import { useTranslation } from "react-i18next";
 
 const Footer = () => {
+  const { t, i18n } = useTranslation();
   return (
     <footer className="bg-dark w-full">
       <div className="container px-12 pt-12 pb-4 mx-auto">
@@ -18,41 +20,49 @@ const Footer = () => {
           </div>
 
           <div>
-            <p className="font-semibold text-white">IKN Smart City</p>
+            <p className="font-semibold text-white">
+              {" "}
+              {t("footer.baris-pertama.judul")}
+            </p>
 
             <div className="flex flex-col items-start mt-2 space-y-2">
-              <p className=" text-gray transition-colors  duration-300 dark:text-primary dark:hover:text-primary hover:underline hover:cursor-pointer hover:text-primary">
-                Kunjungi IKN Smart City
+              <p className="dark:text-gray text-gray transition-colors  duration-300  dark:hover:text-primary hover:underline hover:cursor-pointer hover:text-primary">
+                {t("footer.baris-pertama.list-1")}
               </p>
             </div>
           </div>
 
           <div>
-            <p className="font-semibold text-white">Informasi</p>
+            <p className="font-semibold text-white">
+              {" "}
+              {t("footer.baris-kedua.judul")}
+            </p>
 
             <div className="flex flex-col items-start mt-2 space-y-2">
-              <p className=" text-gray transition-colors  duration-300 dark:text-primary dark:hover:text-primary hover:underline hover:cursor-pointer hover:text-primary">
-                Berita
+              <p className=" text-gray transition-colors  duration-300 dark:text-gray dark:hover:text-primary hover:underline hover:cursor-pointer hover:text-primary">
+                {t("footer.baris-kedua.list-1")}
               </p>
-              <p className=" text-gray transition-colors  duration-300 dark:text-primary dark:hover:text-primary hover:underline hover:cursor-pointer hover:text-primary">
-                Proyek Terkini
+              <p className=" text-gray transition-colors  duration-300 dark:text-gray dark:hover:text-primary hover:underline hover:cursor-pointer hover:text-primary">
+                {t("footer.baris-kedua.list-2")}
               </p>
             </div>
 
-            <p className="font-semibold  mt-8 text-white">Media Sosial</p>
+            <p className="font-semibold  mt-8 text-white">
+              {t("footer.baris-ketiga.judul")}
+            </p>
 
             <div className="flex flex-col items-start mt-2 space-y-2">
-              <p className=" text-gray transition-colors  duration-300 dark:text-primary dark:hover:text-primary hover:underline hover:cursor-pointer hover:text-primary">
-                Instagram
+              <p className=" text-gray transition-colors  duration-300 dark:text-gray dark:hover:text-primary hover:underline hover:cursor-pointer hover:text-primary">
+                {t("footer.baris-ketiga.list-1")}
               </p>
-              <p className=" text-gray transition-colors  duration-300 dark:text-primary dark:hover:text-primary hover:underline hover:cursor-pointer hover:text-primary">
-                Facebook
+              <p className=" text-gray transition-colors  duration-300 dark:text-gray dark:hover:text-primary hover:underline hover:cursor-pointer hover:text-primary">
+                {t("footer.baris-ketiga.list-2")}
               </p>
-              <p className=" text-gray transition-colors  duration-300 dark:text-primary dark:hover:text-primary hover:underline hover:cursor-pointer hover:text-primary">
-                Twitter
+              <p className=" text-gray transition-colors  duration-300 dark:text-gray dark:hover:text-primary hover:underline hover:cursor-pointer hover:text-primary">
+                {t("footer.baris-ketiga.list-3")}
               </p>
-              <p className=" text-gray transition-colors  duration-300 dark:text-primary dark:hover:text-primary hover:underline hover:cursor-pointer hover:text-primary">
-                Youtube
+              <p className=" text-gray transition-colors  duration-300 dark:text-gray dark:hover:text-primary hover:underline hover:cursor-pointer hover:text-primary">
+                {t("footer.baris-ketiga.list-4")}
               </p>
             </div>
           </div>
