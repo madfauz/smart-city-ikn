@@ -13,6 +13,7 @@ const Layout = () => {
       <Navbar />
       <main className="flex flex-col w-[100%] items-center justify-start min-h-screen m-auto">
         <Project />
+        <Desc />
         <News />
       </main>
     </React.Fragment>

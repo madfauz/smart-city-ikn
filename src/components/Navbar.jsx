@@ -155,7 +155,7 @@ const Navbar = () => {
       {/*Overflow overlay */}
       <div
         onClick={toggleSidebar}
-        className={`absolute md:hidden top-0 left-0 w-full h-full z-40 bg-dark ${
+        className={`fixed md:hidden top-0 left-0 w-full h-full z-40 bg-dark ${
           sidebar ? "block opacity-20" : "hidden opacity-0"
         } transition-opacity duration-500 ease-in`}
       ></div>
@@ -224,16 +224,16 @@ const Navbar = () => {
             <button className="w-6 h-6 rounded-full flex justify-center items-center bg-dark dark:bg-secondary">
               {!darkMode ? (
                 <img
-                  src={LightModeIcon}
+                  src={DarkModeIcon}
                   style={{ filter: "invert(1) grayscale(1)" }}
                   alt="Light Mode"
                 />
               ) : (
-                <img src={DarkModeIcon} alt="Dark Mode" />
+                <img src={LightModeIcon} alt="Dark Mode" />
               )}
             </button>
             <span className="font-normal text-[20px] font-poppins text-dark hover:text-primary dark:text-secondary dark:hover:text-primary text-[16px]">
-              {darkMode ? "Dark Mode" : "Light Mode"}
+              {!darkMode ? "Dark Mode" : "Light Mode"}
             </span>
           </aside>
 
