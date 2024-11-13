@@ -53,10 +53,10 @@
       "berita-2": "Desa di Sekitar Nusantara Jadi Pusat Studi Desa Digital",
       "berita-3": "Rumah Sakit Hermina Akan Bangun Rumah Sakit Bertaraf Internasional di IKN"
     },
-    "tag_berita":{
-      "berita-1":"#INFRASTRUKTUR",
-      "berita-2":"#DIGITALISASI",
-      "berita-3":"#INFRASTRUKTUR"
+    "tag_berita": {
+      "berita-1": "#INFRASTRUKTUR",
+      "berita-2": "#DIGITALISASI",
+      "berita-3": "#INFRASTRUKTUR"
     },
     "tanggal_berita": {
       "berita-1": "25 April 2023",
@@ -64,9 +64,29 @@
       "berita-3": "21 Juni 2023"
     },
     "isi_berita": {
-      "berita-1": "Sebagai bagian dari perencanaaan jangka panjang dalam mengembangkan ibu kota baru Indonesia, Otorita Ibu Kota Nusantara (OIKN) secara serius mempertimbangkan penggunaan teknologi pencahayaan pintar atau smart lightinguntuk menciptakan kota yang cerdas dan ramah lingkungan. Menurut Sekretaris OIKN Achmad Jaka Santos Adiwijaya, smart lightingdapat memberikan banyak manfaat seperti penghematan biaya yang signifikan, pengurangan emisi karbon, dan polusi cahaya. Berkaitan dengan misi pameran investasi global di Hannover Messe 2023, OIKN mengirimkan delegasi untuk mengunjungi salah satu perusahaan smart lightingterkemuka di Eropa, LUG, di Zielona Gora, Polandia. Delegasi OIKN yang dipimpin oleh Sekretaris OIKN Achmad Jaka Santos Adiwijaya, Chief Urban Mobility OIKN Resdiansyah, dan Kepala Biro Keuangan, Barang Milik Negara, dan Aset Dalam Penguasaan, Muji Budda'wah, berkesempatan mempelajari pengalaman LUG selama 30 tahun dalam menyediakan solusi pencahayaan profesional dan potensi mereka untuk bisa berinvestasi di Nusantara. ",
-      "berita-2": "Desa Bukit Raya, Desa Digital (Smart Village) pertama di Penajam Paser Utara, Kalimantan Timur atau di wilayah Ibu Kota Nusantara kini menjadi desa percontohan sekaligus pusat studi bagi desa lain. Sejak diresmikan sebagai Desa Digital pada Agustus 2022, sudah ada empat desa yang datang untuk studi ke Bukit Raya, tiga desa dari wilayah Kalimantan Timur, yakni Desa Sidorejo, Gunung Intan Babulu dan Sesulu sedangkan satu desa dari Kalimantan Tengah. “Rombongan dari Desa Muara Plantau, Kalimantan Tengah datang lewat jalan darat menempuh perjalanan 13 jam khusus ke sini,” kata Sekretaris Desa Bukit Raya, Adi Suriyadi. Menurut Adi, mereka datang dengan tiga mobil, yang terdiri hampir dari seluruh perangkat desa dari Kepala Desa, hingga Ketua RT. “Mereka ingin belajar dari kami bagaimana menjadi desa digital,” ujar Adi.",
-      "berita-3": "Hermina akan bangun rumah sakit bertaraf internasional di kawasan Ibu Kota Nusantara (IKN). Rumah sakit ini ditargetkan dapat beroperasi pada Agustus 2024. “Di saat banyak investor bersikap menunggu untuk berinvestasi di IKN, kami Hermina tengah siap membangun suatu rumah sakit yang pasti diperlukan oleh masyarakat yang saat ini sedang membangun Ibu Kota Negara di IKN,” ujar Direktur Utama PT Medikaloka Hermina Tbk Hasmoro dalam acara Penandatanganan Kesepakatan Kerja Sama Pembangunan Rumah Sakit Bertaraf Internasional, di Hermina Tower, Jakarta Pusat, Selasa (20/06/2023)."
+      "berita-1": [
+        "POLANDIA, Sebagai bagian dari perencanaaan jangka panjang dalam mengembangkan ibu kota baru Indonesia, Otorita Ibu Kota Nusantara (OIKN) secara serius mempertimbangkan penggunaan teknologi pencahayaan pintar atau smart lightinguntuk menciptakan kota yang cerdas dan ramah lingkungan. Menurut Sekretaris OIKN Achmad Jaka Santos Adiwijaya, smart lightingdapat memberikan banyak manfaat seperti penghematan biaya yang signifikan, pengurangan emisi karbon, dan polusi cahaya. ",
+        "Berkaitan dengan misi pameran investasi global di Hannover Messe 2023, OIKN mengirimkan delegasi untuk mengunjungi salah satu perusahaan smart lightingterkemuka di Eropa, LUG, di Zielona Gora, Polandia. Delegasi OIKN yang dipimpin oleh Sekretaris OIKN Achmad Jaka Santos Adiwijaya, Chief Urban Mobility OIKN Resdiansyah, dan Kepala Biro Keuangan, Barang Milik Negara, dan Aset Dalam Penguasaan, Muji Budda'wah, berkesempatan mempelajari pengalaman LUG selama 30 tahun dalam menyediakan solusi pencahayaan profesional dan potensi mereka untuk bisa berinvestasi di Nusantara. ",
+        "Michael Lupkowski, Director of Marketing Product Development di LUG, mengungkapkan kegembiraannya saat menjadi tuan rumah delegasi OIKN, dan terutama pada kesamaan visi untuk mengembangkan konsep pencahayaan yang berkelanjutan, serta yang berorientasi pada sumber daya manusia di Nusantara. LUG memiliki spesialisasi dalam pengembangan infrastruktur dan industri luminer, serta pencahayaan dekoratif untuk fasilitas publik, area komersial, dan objek-objek arsitektur. "
+      ],
+      "berita-2": [
+        "NUSANTARA – Desa Bukit Raya, Desa Digital (Smart Village) pertama di Penajam Paser Utara, Kalimantan Timur atau di wilayah Ibu Kota Nusantara kini menjadi desa percontohan sekaligus pusat studi bagi desa lain. Sejak diresmikan sebagai Desa Digital pada Agustus 2022, sudah ada empat desa yang datang untuk studi ke Bukit Raya, tiga desa dari wilayah Kalimantan Timur, yakni Desa Sidorejo, Gunung Intan Babulu dan Sesulu sedangkan satu desa dari Kalimantan Tengah.",
+        "“Rombongan dari Desa Muara Plantau, Kalimantan Tengah datang lewat jalan darat menempuh perjalanan 13 jam khusus ke sini,” kata Sekretaris Desa Bukit Raya, Adi Suriyadi. Menurut Adi, mereka datang dengan tiga mobil, yang terdiri hampir dari seluruh perangkat desa dari Kepala Desa, hingga Ketua RT. “Mereka ingin belajar dari kami bagaimana menjadi desa digital,” ujar Adi.",
+        "Desa Bukit Raya merupakan Desa Digital yang didukung oleh Telkom dan Otorita Ibu Kota Nusantara (OIKN) melalui Program Desa Digital Nusantara (Smart Village Nusantara). Program ini untuk mendorong percepatan pengembangan kawasan Nusantara khususnya dalam aspek teknologi dan informasi. Dengan program ini maka desa-desa di sekitar Nusantara sudah mengadopsi teknologi digital sejak dini dan nantinya akan mendukung ekosistem kota pintar (smart city) yang diterapkan di Nusantara."
+      ],
+      "berita-3": [
+        "JAKARTA - Hermina akan bangun rumah sakit bertaraf internasional di kawasan Ibu Kota Nusantara (IKN). Rumah sakit ini ditargetkan dapat beroperasi pada Agustus 2024. ",
+        "“Di saat banyak investor bersikap menunggu untuk berinvestasi di IKN, kami Hermina tengah siap membangun suatu rumah sakit yang pasti diperlukan oleh masyarakat yang saat ini sedang membangun Ibu Kota Negara di IKN,” ujar Direktur Utama PT Medikaloka Hermina Tbk Hasmoro dalam acara Penandatanganan Kesepakatan Kerja Sama Pembangunan Rumah Sakit Bertaraf Internasional, di Hermina Tower, Jakarta Pusat, Selasa (20/06/2023).",
+        "Pembangunan rumah sakit ini merupakan hasil kerja sama antara PT Medikaloka Hermina Tbk dengan PT Bina Karya (Persero) yangoleh Pemerintah telah ditetapkan sebagai Badan Usaha Otorita (BUO). Sehingga saat ini PT Bina Karya dapat berperan sebagai master developerdan menjalankan fungsi serta tugasnya dalam hal aspek komersial dan B2B dengan investor yang berminat untuk investasi di IKN."
+      ]
+    },
+    "preview_berita": {
+      "preview-1": "Sebagai bagian dari perencanaaan jangka panjang dalam mengembangkan ibu kota baru Indonesia, Otorita Ibu Kota Nusantara (OIKN) secara serius mempertimbangkan penggunaan teknologi pencahayaan pintar atau smart lightinguntuk menciptakan kota yang cerdas dan ramah lingkungan. Menurut Sekretaris OIKN Achmad Jaka Santos Adiwijaya, smart lightingdapat memberikan banyak manfaat seperti penghematan biaya yang signifikan, pengurangan emisi karbon, dan polusi cahaya. ",
+      "preview-2": "Desa Bukit Raya, Desa Digital (Smart Village) pertama di Penajam Paser Utara, Kalimantan Timur atau di wilayah Ibu Kota Nusantara kini menjadi desa percontohan sekaligus pusat studi bagi desa lain. Sejak diresmikan sebagai Desa Digital pada Agustus 2022, sudah ada empat desa yang datang untuk studi ke Bukit Raya, tiga desa dari wilayah Kalimantan Timur, yakni Desa Sidorejo, Gunung Intan Babulu dan Sesulu sedangkan satu desa dari Kalimantan Tengah. ",
+      "preview-3": "Hermina akan bangun rumah sakit bertaraf internasional di kawasan Ibu Kota Nusantara (IKN). Rumah sakit ini ditargetkan dapat beroperasi pada Agustus 2024. "
+    },
+    "penutup-berita": {
+      "tombol-penutup": "Tutup"
     }
   },
 
