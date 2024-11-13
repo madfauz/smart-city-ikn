@@ -1,4 +1,6 @@
 export default {
+  darkMode: "class",
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   content: [
     "./index.html",
     "./src/**/*.{js,jsx,ts,tsx}", // Perhatikan dua tanda bintang '**' untuk mencakup semua sub-folder

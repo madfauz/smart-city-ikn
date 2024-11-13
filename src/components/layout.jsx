@@ -12,12 +12,13 @@ const Layout = () => {
     <React.Fragment>
       {/* <Navbar /> */}
       <main className="flex flex-col w-[100%] items-center justify-start min-h-screen m-auto">
+        <Navbar />
         <Carousel />
-        {/* <Feature />
+        <Feature />
         <Project />
         <Desc />
         <News />
-        <Footer /> */}
+        <Footer />
       </main>
     </React.Fragment>
   );
