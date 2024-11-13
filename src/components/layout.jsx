@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "./Navbar";
-import Carousel from "./carousel";
+import Carousel from "./Carousel";
 import Feature from "./Feature";
 import Project from "./Project";
 import Desc from "./Desc";
@@ -10,14 +10,14 @@ import Footer from "./Footer";
 const Layout = () => {
   return (
     <React.Fragment>
-      <Navbar />
+      {/* <Navbar /> */}
       <main className="flex flex-col w-[100%] items-center justify-start min-h-screen m-auto">
         <Carousel />
-        <Feature />
+        {/* <Feature />
         <Project />
         <Desc />
         <News />
-        <Footer />
+        <Footer /> */}
       </main>
     </React.Fragment>
   );
