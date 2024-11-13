@@ -20,7 +20,7 @@ const News = () => {
       </div>
 
       {/* Filter Section*/}
-      <div className="flex justify-start gap-4 flex-wrap  hidden md:flex px-4">
+      <div className="flex justify-start gap-4 flex-wrap  hidden md:flex ">
         <span className="bg-primary rounded-lg flex items-center justify-center font-semibold text-base lg:text-lg text-white py-2 px-4 md:py-3 md:px-6">
           {t("kategori-konten.kategori-1")}
         </span>
