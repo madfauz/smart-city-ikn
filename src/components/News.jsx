@@ -31,8 +31,8 @@ function News() {
 
   return (
     <div
-      id="sectionberita"
-      className="w-full px-4 sm:px-6 lg:px-8mx-auto dark:bg-dark"
+      id="berita"
+      className="w-full mt-[-2px] px-4 sm:px-6 lg:px-8mx-auto dark:bg-dark"
     >
       <div className="flex flex-col items-center justify-center text-center ">
         <p className="pt-8 mb-2 text-4xl sm:text-4xl md:text-5xl font-bold tracking-tight text-dark dark:text-white">
