@@ -32,7 +32,7 @@ function News() {
 
   return (
     <div className="w-full px-4 sm:px-6 lg:px-8mx-auto dark:bg-dark">
-      {/* Title Section */}
+     
       <div className="flex flex-col items-center justify-center text-center ">
         <p className="pt-8 mb-2 text-4xl sm:text-4xl md:text-5xl font-bold tracking-tight text-dark dark:text-white">
           {t("bagian_berita.header_berita")}
@@ -43,7 +43,7 @@ function News() {
         </p>
       </div>
 
-      {/* Filter Section*/}
+      {/*Catgeory*/}
       <div className="flex justify-start gap-4 flex-wrap hidden md:flex">
         <span
           onClick={() => handleCategoryClick("kategori-1")}
@@ -79,10 +79,10 @@ function News() {
         </span>
       </div>
 
-      {/* News Section */}
+      {/*News*/}
 
       <div className="relative overflow-x-auto">
-        {/* Modal */}
+        {/*Modal*/}
         <Modal
           className="dark:bg-dark dark:text-white"
           isOpen={isModalOpen}
@@ -90,9 +90,9 @@ function News() {
           contentType={contentType}
         />
 
-        {/* News Cards */}
+        {/*News Cards*/}
         <div className="inline-flex sm:grid sm:grid-cols-2 lg:grid-cols-3 gap-4 py-10 overflow-auto scrollbar-hide">
-          {/* Card 1 */}
+          {/*Card 1*/}
           {(selectedCategory === "kategori-1" ||
             selectedCategory === "kategori-2") && (
             <div
@@ -118,14 +118,14 @@ function News() {
                 <div className="hover:underline dark:hover:underline dark:text-white text-lg font-bold text-dark mb-2 line-clamp-2">
                   {t("card-berita.judul_berita.berita-1")}
                 </div>
-                <p className="dark:text-white text-gray font-regular text-sm line-clamp-5">
+                <p className="dark:text-white text-semidark font-regular text-sm line-clamp-5">
                   {t("card-berita.preview_berita.preview-1")}
                 </p>
               </div>
             </div>
           )}
 
-          {/* Card 2 */}
+          {/*Card 2*/}
           {(selectedCategory === "kategori-1" ||
             selectedCategory === "kategori-3") && (
             <div
@@ -152,13 +152,13 @@ function News() {
                 <div className="hover:underline dark:hover:underline dark:text-white text-lg font-bold text-dark mb-2 line-clamp-2">
                   {t("card-berita.judul_berita.berita-2")}
                 </div>
-                <p className="dark:text-white text-gray font-regular text-sm line-clamp-5">
+                <p className="dark:text-white text-semidark font-regular text-sm line-clamp-5">
                   {t("card-berita.preview_berita.preview-2")}
                 </p>
               </div>
             </div>
           )}
-          {/* Card 3 */}
+          {/*Card 3*/}
           {(selectedCategory === "kategori-1" ||
             selectedCategory === "kategori-2") && (
             <div
@@ -185,7 +185,7 @@ function News() {
                 <div className="dark:text-white hover:underline dark:hover:underline  text-lg font-bold text-dark mb-2 line-clamp-2">
                   {t("card-berita.judul_berita.berita-3")}
                 </div>
-                <p className="dark:text-white text-gray font-regular text-sm line-clamp-5">
+                <p className="dark:text-white text-semidark font-regular text-sm line-clamp-5">
                   {t("card-berita.preview_berita.preview-3")}
                 </p>
               </div>
@@ -193,7 +193,7 @@ function News() {
           )}
         </div>
       </div>
-      {/* End Section */}
+      {/*End*/}
     </div>
   );
 }

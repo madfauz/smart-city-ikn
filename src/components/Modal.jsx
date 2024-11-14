@@ -21,10 +21,10 @@ function Modal({ isOpen, onClose, contentType }) {
             {t("card-berita.judul_berita.berita-1")}
           </h2>
           <img src={berita1} alt="" className="w-full h-auto rounded-lg mt-4" />
-          <p className="dark:text-white py-4 text-sm text-gray-500">
+          <p className="dark:text-white py-4 text-sm text-gray">
             {t("card-berita.tanggal_berita.berita-1")}
           </p>
-          <p className="dark:text-white">
+          <p className="text-semidark dark:text-white">
             <div>
               {t("card-berita.isi_berita.berita-1", {
                 returnObjects: true,
@@ -43,10 +43,10 @@ function Modal({ isOpen, onClose, contentType }) {
             {t("card-berita.judul_berita.berita-2")}
           </h2>
           <img src={berita2} alt="" className="w-full h-auto rounded-lg mt-4" />
-          <p className="dark:text-white py-4 text-sm text-gray-500">
+          <p className="dark:text-white py-4 text-sm text-gray">
             {t("card-berita.tanggal_berita.berita-2")}
           </p>
-          <p className="dark:text-white">
+          <p className="text-semidark dark:text-white">
             <div>
               {t("card-berita.isi_berita.berita-2", {
                 returnObjects: true,
@@ -65,10 +65,10 @@ function Modal({ isOpen, onClose, contentType }) {
             {t("card-berita.judul_berita.berita-3")}
           </h2>
           <img src={berita3} alt="" className="w-full h-auto rounded-lg mt-4" />
-          <p className="dark:text-white py-4 text-sm text-gray-500">
+          <p className="dark:text-white py-4 text-sm text-gray">
             {t("card-berita.tanggal_berita.berita-3")}
           </p>
-          <p className="dark:text-white">
+          <p className="text-semidark dark:text-white">
             <div>
               {t("card-berita.isi_berita.berita-3", {
                 returnObjects: true,
@@ -96,14 +96,14 @@ function Modal({ isOpen, onClose, contentType }) {
       className="fixed inset-0 z-50 flex items-center justify-center"
       onClick={handleOverlayClick}
     >
-      {/* Overlay */}
+      {/*Overlay*/}
       <div
         className="fixed inset-0 bg-dark opacity-50 dark:bg-black dark:opacity-80 z-40"
         onClick={onClose}
       ></div>
-      {/* Container */}
+      {/*Container*/}
       <div
-        className="rounded-lg relative bg-white dark:bg-gray-800 w-full max-w-4xl mx-auto rounded shadow-lg z-50 overflow-y-auto"
+        className=" mx-4 rounded-lg relative bg-white dark:bg-gray-800 w-full max-w-4xl mx-auto rounded shadow-lg z-50 overflow-y-auto"
         onClick={(e) => e.stopPropagation()}
       >
         <div className="rounded-lg dark:bg-dark modal-content py-4 text-left px-6 max-h-[80vh] overflow-y-auto">
