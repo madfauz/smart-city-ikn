@@ -115,10 +115,10 @@ function Modal({ isOpen, onClose, contentType }) {
       ></div>
       {/*Container*/}
       <div
-        className="pb-6 mx-4 rounded-lg relative bg-white dark:bg-gray-800 w-full max-w-4xl mx-auto rounded shadow-lg z-50 overflow-y-auto"
+        className="dark:bg-dark pb-6 mx-4 rounded-tl-lg rounded-tr-lg relative bg-white dark:bg-gray-800 w-full max-w-4xl mx-auto rounded shadow-lg z-50 overflow-y-auto"
         onClick={(e) => e.stopPropagation()}
       >
-        <div className="scrollbar-hide rounded-lg dark:bg-dark modal-content py-4 text-left px-6 max-h-[80vh] overflow-y-auto">
+        <div className="scrollbar-hide rounded-tl-lg rounded-tr-lg dark:bg-dark modal-content py-4 text-left px-6 max-h-[80vh] overflow-y-auto">
           <div className="flex justify-between items-center pb-3">
             <div
               className="modal-close cursor-pointer z-50"
@@ -128,7 +128,7 @@ function Modal({ isOpen, onClose, contentType }) {
 
           <div>{modalContent}</div>
         </div>
-        <div className="flex justify-center">
+        <div className="flex justify-center dark:bg-dark">
           <button
             onClick={onClose}
             className="modal-close px-4 bg-gray-100 dark:bg-gray-700 p-3 rounded-lg text-black dark:text-primary text-primary hover:bg-gray-200"
