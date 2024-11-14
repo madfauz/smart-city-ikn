@@ -34,11 +34,11 @@ function News() {
       className="w-full mt-[-2px] px-4 sm:px-6 lg:px-8mx-auto dark:bg-dark"
     >
       <div className="flex flex-col items-center justify-center text-center ">
-        <h2 className="font-poppins pt-8 mb-2 vm-title sm-title md-title lg-title xl-title font-bold tracking-tight text-dark dark:text-white">
+        <h2 className="font-poppins pt-8 mb-2 text-vm-title sm:text-sm-title md:text-md-title lg:text-lg-title xl:text-xl-title font-bold tracking-tight text-dark dark:text-white">
           {t("bagian_berita.header_berita")}
         </h2>
 
-        <p className="font-poppins dark:text-white vm-desc sm-desc md-desc lg-desc xl-desc mb-4 sm:mb-6 md:mb-md text-gray-700">
+        <p className="font-poppins dark:text-white text-vm-desc sm:text-sm-desc md:text-md-desc lg:text-lg-desc xl:text-xl-desc mb-4 sm:mb-6 md:mb-md text-gray-700">
           {t("bagian_berita.deskripsi_berita")}
         </p>
       </div>
