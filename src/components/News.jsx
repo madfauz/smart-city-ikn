@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "../app.css";
 import Modal from "./Modal";
 import berita1 from "../assets/berita-1.jpeg";
 import berita2 from "../assets/berita-2.jpeg";
