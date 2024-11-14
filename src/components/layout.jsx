@@ -1,11 +1,14 @@
 import React from "react";
+import "../app.css";
 import Navbar from "./Navbar";
 import Carousel from "./Carousel";
 import Feature from "./Feature";
 import Project from "./Project";
 import Desc from "./Desc";
+import Modal from "./Modal";
 import News from "./News";
 import Footer from "./Footer";
+
 
 const Layout = () => {
   return (
@@ -17,6 +20,7 @@ const Layout = () => {
         <Project />
         <Desc />
         <News />
+        <Modal />
         <Footer />
       </main>
     </React.Fragment>
