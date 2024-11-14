@@ -95,7 +95,10 @@ const Carousel = () => {
           {t("konten-carousel.text-bawah")}
         </div>
         <div className="w-1/3 flex justify-center items-center">
-          <button className="rounded-full bg-dark dark:bg-white flex items-center gap-2 py-2 md:py-3 lg:py-4 px-4 md:px-6 lg:px-8 cursor-pointer hover:bg-primary dark:hover:bg-primary">
+          <a
+            href="#jelajahi"
+            className="rounded-full bg-dark dark:bg-white flex items-center gap-2 py-2 md:py-3 lg:py-4 px-4 md:px-6 lg:px-8 cursor-pointer hover:bg-primary dark:hover:bg-primary"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="1em"
@@ -115,7 +118,7 @@ const Carousel = () => {
             <span className="font-poppins font-semibold text-[16px] sm:text-[24px] text-white dark:text-dark">
               {t("konten-carousel.text-tombol")}
             </span>
-          </button>
+          </a>
         </div>
       </aside>
       <img
