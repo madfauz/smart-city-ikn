@@ -14,9 +14,9 @@ const Footer = () => {
               alt="IKN Smart City logo"
               className="w-28 h-auto sm:w-32 md:w-40 lg:w-48"
             />
-            <h1 className="vm-title sm-title md-title lg-title xl-title font-poppins mt-4 max-w-lg font-semibold tracking-tight text-white text-white">
+            <h2 className="text-vm-desc sm:text-sm-desc md:text-md-desc lg:text-lg-desc xl:text-xl-desc font-poppins mt-4 font-semibold tracking-tight  text-white">
               Smart Sustainable Forest City
-            </h1>
+            </h2>
           </div>
 
           <div>
@@ -99,7 +99,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <hr className="mt-12 border-gray md:mt-12 dark:border-gray h-2" />
+        <hr className="mt-12 border-gray border-opacity-40 md:mt-12 dark:border-opacity-40 dark:border-gray h-2" />
         <p className="text-center vm-desc sm-desc md-desc lg-desc xl-desc font-poppins font-semibold p-2 text-white  md:p-4">
           © 2024 Copyright IKN Smart City
         </p>
