@@ -108,5 +108,30 @@
       "list-3": "Twitter",
       "list-4": "Youtube"
     }
+  },
+  "konten-fitur":{
+    "judul": "Apa saja keunggulan IKN Smart City",
+    "Deskripsi1":"Ada banyak keunggulan dari IKN Smart City yang dapat",
+    "Deskripsi2":"memberikan manfaat bagi semua orang",
+
+    "Judul-Layanan-Public1": "Layanan Public yang ",
+    "Judul-Layanan-Public2": "terintegrasi",
+
+    "Deskripsi-Layanan-Public": "menyediakan layanan public yang terintegrasi melalu teknologi digital seperti sistem pelaporan masalah melalui aplikasi selular",
+
+
+    "Judul-Kota-Iot1": "Kota yang berbasis",
+    "Judul-Kota-Iot2": "Internet of Things (IoT)",
+
+
+    "Deskripsi-Kota-Iot": "Mengadopsi Internet of Things yang memungkinkan berbagai perangkat terhubung dari lampu jalan hingga sarana transportasi",
+
+    "Judul-Menerapkan-Smart1": "Menerapkan",
+    "Judul-Menerapkan-Smart2" : "Smart Goverment",
+
+    "Deskirpsi-Menerapkan-Smart": "Menggunakan pemanfaatan teknologi informasi dan komunikasi untuk membuat tata kelola pemerintahan yang transparan, mudah diakses dan melibatkan partisipasi public"
+
+
+
   }
 }
