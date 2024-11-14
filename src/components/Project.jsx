@@ -22,10 +22,7 @@ const Project = () => {
         </p>
       </section>
 
-      <section
-        id="proyek"
-        className="flex flex-wrap xl:flex-nowrap flex-row gap-6 w-full"
-      >
+      <section className="flex flex-wrap xl:flex-nowrap flex-row gap-6 w-full">
         <aside className="flex flex-col sm:flex-row xl:flex-col gap-6 basis-full xl:basis-4/12">
           <div className="relative rounded-[10px] w-full h-[240px] sm:h-auto sm:w-1/2 xl:w-auto xl:h-2/3">
             <div className="bg-gradient-to-t from-black to-white opacity-40 absolute top-0 left-0 w-full h-full z-10 rounded-[10px]"></div>

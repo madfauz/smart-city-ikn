@@ -10,6 +10,43 @@ export default {
       fontFamily: {
         poppins: ["Poppins"],
       },
+      fontSize: {
+        "vm-title": "24px",
+        "sm-title": "26px",
+        "md-title": "28px",
+        "lg-title": "30px",
+        "xl-title": "32px",
+
+        "vm-desc": "14px",
+        "sm-desc": "16px",
+        "md-desc": "18px",
+        "lg-desc": "20px",
+        "xl-desc": "22px",
+
+        "vm-card-title": "18px",
+        "sm-card-title": "20px",
+        "md-card-title": "22px",
+        "lg-card-title": "24px",
+        "xl-card-title": "26px",
+
+        "vm-card-desc": "14px",
+        "sm-card-desc": "16px",
+        "md-card-desc": "18px",
+        "lg-card-desc": "20px",
+        "xl-card-desc": "22px",
+
+        "vm-card-tag": "14px",
+        "sm-card-tag": "16px",
+        "md-card-tag": "18px",
+        "lg-card-tag": "20px",
+        "xl-card-tag": "22px",
+
+        "vm-card-date": "12px",
+        "sm-card-date": "14px",
+        "md-card-date": "16px",
+        "lg-card-date": "18px",
+        "xl-card-date": "20px",
+      },
       spacing: {
         vm: "8px",
         sm: "12px",
