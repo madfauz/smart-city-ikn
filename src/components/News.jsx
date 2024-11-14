@@ -1,9 +1,11 @@
 import React, { useState } from "react";
+import "../app.css";
 import Modal from "./Modal";
 import berita1 from "../assets/berita-1.jpeg";
 import berita2 from "../assets/berita-2.jpeg";
 import berita3 from "../assets/berita-3.jpeg";
 import { useTranslation } from "react-i18next";
+
 
 function News() {
   const [selectedCategory, setSelectedCategory] = useState("kategori-1");
@@ -89,9 +91,10 @@ function News() {
         />
 
         {/* News Cards */}
-        <div className="inline-flex sm:grid sm:grid-cols-2 lg:grid-cols-3 gap-4 py-10">
+        <div className="inline-flex sm:grid sm:grid-cols-2 lg:grid-cols-3 gap-4 py-10 overflow-auto scrollbar-hide">
           {/* Card 1 */}
-          {selectedCategory.includes("kategori-1") && (
+          {(selectedCategory === "kategori-1" ||
+            selectedCategory === "kategori-2") && (
             <div
               onClick={() => openModal("berita-1")}
               className="hover:shadow-none hover:border hover:border-gray hover:border-opacity-40 bg-white dark:hover:border-primary dark:bg-dark dark:border-2 dark:border-opacity-20 dark:border-white rounded-xl shadow-lg dark:shadow-none hover:cursor-pointer overflow-hidden w-72 sm:w-auto"
@@ -123,7 +126,8 @@ function News() {
           )}
 
           {/* Card 2 */}
-          {selectedCategory.includes("kategori-3") && (
+          {(selectedCategory === "kategori-1" ||
+            selectedCategory === "kategori-3") && (
             <div
               onClick={() => openModal("berita-2")}
               className="hover:shadow-none hover:border hover:border-gray hover:border-opacity-40 bg-white dark:hover:border-primary dark:bg-dark dark:border-2 dark:border-opacity-20 dark:border-white rounded-xl shadow-lg dark:shadow-none hover:cursor-pointer overflow-hidden w-72 sm:w-auto"
@@ -155,7 +159,8 @@ function News() {
             </div>
           )}
           {/* Card 3 */}
-          {selectedCategory.includes("kategori-1") && (
+          {(selectedCategory === "kategori-1" ||
+            selectedCategory === "kategori-2") && (
             <div
               onClick={() => openModal("berita-3")}
               className="hover:shadow-none hover:border hover:border-gray hover:border-opacity-40 bg-white dark:hover:border-primary dark:bg-dark dark:border-2 dark:border-opacity-20 dark:border-white rounded-xl shadow-lg dark:shadow-none hover:cursor-pointer overflow-hidden w-72 sm:w-auto"
