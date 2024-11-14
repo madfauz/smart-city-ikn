@@ -14,13 +14,13 @@ const Footer = () => {
               alt="IKN Smart City logo"
               className="w-28 h-auto sm:w-32 md:w-40 lg:w-48"
             />
-            <h1 className="mt-4 max-w-lg text-xl font-semibold tracking-tight text-gray-800 xl:text-2xl sm:text-3xl md:text-4xl text-white">
+            <h1 className="font-poppins mt-4 max-w-lg text-xl font-semibold tracking-tight text-gray-800 xl:text-2xl sm:text-3xl md:text-4xl text-white">
               Smart Sustainable Forest City
             </h1>
           </div>
 
           <div>
-            <p className="font-semibold text-white">
+            <p className="font-poppins font-semibold text-white">
               {" "}
               {t("footer.baris-pertama.judul")}
             </p>
@@ -30,7 +30,7 @@ const Footer = () => {
                 link
                 target="_blank"
                 href="https://maps.app.goo.gl/MKb7hnrbHT1y3Sa77"
-                className="dark:text-gray text-gray transition-colors  duration-300  dark:hover:text-primary hover:underline hover:cursor-pointer hover:text-primary"
+                className="font-poppins dark:text-gray text-gray transition-colors  duration-300  dark:hover:text-primary hover:underline hover:cursor-pointer hover:text-primary"
               >
                 {t("footer.baris-pertama.list-1")}
               </a>
@@ -38,7 +38,7 @@ const Footer = () => {
           </div>
 
           <div>
-            <p className="font-semibold text-white">
+            <p className="font-poppins font-semibold text-white">
               {" "}
               {t("footer.baris-kedua.judul")}
             </p>
@@ -46,19 +46,19 @@ const Footer = () => {
             <div className="flex flex-col items-start mt-2 space-y-2">
               <a
                 href="#sectionberita"
-                className=" text-gray transition-colors  duration-300 dark:text-gray dark:hover:text-primary hover:underline hover:cursor-pointer hover:text-primary"
+                className="font-poppins text-gray transition-colors  duration-300 dark:text-gray dark:hover:text-primary hover:underline hover:cursor-pointer hover:text-primary"
               >
                 {t("footer.baris-kedua.list-1")}
               </a>
               <a
                 href="#sectionproyek"
-                className=" text-gray transition-colors  duration-300 dark:text-gray dark:hover:text-primary hover:underline hover:cursor-pointer hover:text-primary"
+                className="font-poppins text-gray transition-colors  duration-300 dark:text-gray dark:hover:text-primary hover:underline hover:cursor-pointer hover:text-primary"
               >
                 {t("footer.baris-kedua.list-2")}
               </a>
             </div>
 
-            <p className="font-semibold  mt-8 text-white">
+            <p className="font-poppins font-semibold  mt-8 text-white">
               {t("footer.baris-ketiga.judul")}
             </p>
 
@@ -67,7 +67,7 @@ const Footer = () => {
                 link
                 href="https://www.instagram.com/ikn_id"
                 target="_blank"
-                className=" text-gray transition-colors  duration-300 dark:text-gray dark:hover:text-primary hover:underline hover:cursor-pointer hover:text-primary"
+                className="font-poppins text-gray transition-colors  duration-300 dark:text-gray dark:hover:text-primary hover:underline hover:cursor-pointer hover:text-primary"
               >
                 {t("footer.baris-ketiga.list-1")}
               </a>
@@ -75,7 +75,7 @@ const Footer = () => {
                 link
                 href="https://www.facebook.com/iknindonesia1"
                 target="_blank"
-                className=" text-gray transition-colors  duration-300 dark:text-gray dark:hover:text-primary hover:underline hover:cursor-pointer hover:text-primary"
+                className="font-poppins text-gray transition-colors  duration-300 dark:text-gray dark:hover:text-primary hover:underline hover:cursor-pointer hover:text-primary"
               >
                 {t("footer.baris-ketiga.list-2")}
               </a>
@@ -83,7 +83,7 @@ const Footer = () => {
                 link
                 href="https://x.com/ikn_id"
                 target="_blank"
-                className=" text-gray transition-colors  duration-300 dark:text-gray dark:hover:text-primary hover:underline hover:cursor-pointer hover:text-primary"
+                className="font-poppins text-gray transition-colors  duration-300 dark:text-gray dark:hover:text-primary hover:underline hover:cursor-pointer hover:text-primary"
               >
                 {t("footer.baris-ketiga.list-3")}
               </a>
@@ -91,7 +91,7 @@ const Footer = () => {
                 link
                 href="https://www.youtube.com/@iknindonesia4397"
                 target="_blank"
-                className=" text-gray transition-colors  duration-300 dark:text-gray dark:hover:text-primary hover:underline hover:cursor-pointer hover:text-primary"
+                className="font-poppins text-gray transition-colors  duration-300 dark:text-gray dark:hover:text-primary hover:underline hover:cursor-pointer hover:text-primary"
               >
                 {t("footer.baris-ketiga.list-4")}
               </a>
@@ -100,7 +100,7 @@ const Footer = () => {
         </div>
 
         <hr className="mt-12 border-gray md:mt-12 dark:border-gray-700 h-2" />
-        <p className="font-semibold p-2 text-white md:text-center md:text-lg md:p-4">
+        <p className="font-poppins font-semibold p-2 text-white md:text-center md:text-lg md:p-4">
           © 2024 Copyright IKN Smart City
         </p>
       </div>
