@@ -1,6 +1,5 @@
 import React from "react";
-import "../app.css";
-
+import "../App.css";
 import Navbar from "./Navbar";
 import Carousel from "./Carousel";
 import Feature from "./Feature";
