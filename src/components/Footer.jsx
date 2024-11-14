@@ -45,13 +45,13 @@ const Footer = () => {
 
             <div className="flex flex-col items-start mt-2 space-y-2">
               <a
-                href="#sectionberita"
+                href="#berita"
                 className=" text-gray transition-colors  duration-300 dark:text-gray dark:hover:text-primary hover:underline hover:cursor-pointer hover:text-primary"
               >
                 {t("footer.baris-kedua.list-1")}
               </a>
               <a
-                href="#sectionproyek"
+                href="#proyek"
                 className=" text-gray transition-colors  duration-300 dark:text-gray dark:hover:text-primary hover:underline hover:cursor-pointer hover:text-primary"
               >
                 {t("footer.baris-kedua.list-2")}
