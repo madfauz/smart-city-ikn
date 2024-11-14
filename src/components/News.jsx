@@ -44,14 +44,14 @@ function News() {
         </p>
       </div>
 
-      {/*Catgeory*/}
+      {/*Category*/}
       <div className="flex justify-start gap-4 flex-wrap hidden md:flex">
         <span
           onClick={() => handleCategoryClick("kategori-1")}
           className={`${
             selectedCategory === "kategori-1"
-              ? "bg-primary text-white hover:text-white dark:hover:text-white"
-              : "bg-white dark:bg-dark text-gray "
+              ? "bg-primary text-white hover:text-white dark:hover:text-white dark:border-none"
+              : "bg-white dark:bg-dark text-gray dark:border-opacity-20 border-2"
           } dark:border-white dark:text-white dark:hover:text-primary dark:hover:border-primary hover:text-primary hover:cursor-pointer hover:border-primary leading-[1.5] border border-gray py-2 px-4 md:py-3 md:px-6 rounded-lg flex items-center justify-center font-regular text-base lg:text-lg`}
         >
           {t("kategori-konten.kategori-1")}
@@ -61,8 +61,8 @@ function News() {
           onClick={() => handleCategoryClick("kategori-2")}
           className={`${
             selectedCategory === "kategori-2"
-              ? "bg-primary text-white hover:text-white dark:hover:text-white"
-              : "bg-white dark:bg-dark text-gray"
+              ? "bg-primary text-white hover:text-white dark:hover:text-white dark:border-none"
+              : "bg-white dark:bg-dark text-gray dark:border-opacity-20 border-2"
           } dark:border-white dark:text-white dark:hover:text-primary dark:hover:border-primary hover:text-primary hover:cursor-pointer hover:border-primary leading-[1.5] border border-gray py-2 px-4 md:py-3 md:px-6 rounded-lg flex items-center justify-center font-regular text-base lg:text-lg`}
         >
           {t("kategori-konten.kategori-2")}
@@ -72,8 +72,8 @@ function News() {
           onClick={() => handleCategoryClick("kategori-3")}
           className={`${
             selectedCategory === "kategori-3"
-              ? "bg-primary text-white hover:text-white dark:hover:text-white"
-              : "bg-white dark:bg-dark text-gray"
+              ? "bg-primary text-white hover:text-white dark:hover:text-white dark:border-none"
+              : "bg-white dark:bg-dark text-gray dark:border-opacity-20 border-2"
           } dark:border-white dark:text-white dark:hover:text-primary dark:hover:border-primary hover:text-primary hover:cursor-pointer hover:border-primary leading-[1.5] border border-gray py-2 px-4 md:py-3 md:px-6 rounded-lg flex items-center justify-center font-regular text-base lg:text-lg`}
         >
           {t("kategori-konten.kategori-3")}
