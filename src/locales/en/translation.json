@@ -87,5 +87,33 @@
       "list-3": "Twitter",
       "list-4": "Youtube"
     }
+    
+  },
+  "konten-fitur":{
+    "judul": "What are the advantages of IKN Smart City",
+    "Deskripsi1":"There are many advantages of IKN Smart City",
+    "Deskripsi2":"provide benefits to everyone",
+
+    "Judul-Layanan-Public1": "Public Service ",
+    "Judul-Layanan-Public2": "integrate",
+
+    "Deskripsi-Layanan-Public": "providing integrated public services through digital technology such as a problem reporting system via mobile applications",
+
+    "Judul-Kota-Iot1": "A city based on the",
+    "Judul-Kota-Iot2": "Internet of Things (IoT)",
+
+    "Deskripsi-Kota-Iot": "Adopting the Internet of Things which allows various devices to be connected from street lights to means of transportation",
+
+    "Judul-Menerapkan-Smart1": "Implementing",
+    "Judul-Menerapkan-Smart2" : "Smart Goverment",
+
+    "Deskirpsi-Menerapkan-Smart": "Using the use of information and communication technology to make government governance transparent, easy to access and involving public participation"
+
+
   }
+
+  
+
+
+  
 }
