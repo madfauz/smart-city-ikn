@@ -44,7 +44,7 @@ function News() {
         </p>
       </div>
 
-      {/*Catgeory*/}
+      {/*Category*/}
       <div className="flex justify-start gap-4 flex-wrap hidden md:flex">
         <span
           onClick={() => handleCategoryClick("kategori-1")}

@@ -6,7 +6,6 @@ import berita3 from "../assets/berita-3.jpeg";
 import { useTranslation } from "react-i18next";
 
 function Modal({ isOpen, onClose, contentType }) {
- 
   const { t, i18n } = useTranslation();
   if (!isOpen) return null;
 
@@ -17,13 +16,17 @@ function Modal({ isOpen, onClose, contentType }) {
     case "berita-1":
       modalContent = (
         <>
-          <h2 className="dark:text-white text-xl font-bold">
-            {t("card-berita.judul_berita.berita-1")}
-          </h2>
-          <img src={berita1} alt="gambar berita-1" className="w-full h-auto rounded-lg mt-4" />
+          <img
+            src={berita1}
+            alt="gambar berita-1"
+            className="w-full h-40 sm:h-56 md:h-80 lg:h-80  object-cover rounded-lg mt-4 "
+          />
           <p className="dark:text-white py-4 text-sm text-gray">
             {t("card-berita.tanggal_berita.berita-1")}
           </p>
+          <h2 className="dark:text-white text-xl pb-4 font-bold">
+            {t("card-berita.judul_berita.berita-1")}
+          </h2>
           <p className="text-semidark dark:text-white">
             <div>
               {t("card-berita.isi_berita.berita-1", {
@@ -39,9 +42,6 @@ function Modal({ isOpen, onClose, contentType }) {
     case "berita-2":
       modalContent = (
         <>
-          <h2 className="dark:text-white text-xl font-bold">
-            {t("card-berita.judul_berita.berita-2")}
-          </h2>
           <img
             src={berita2}
             alt="gambar berita-2"
@@ -50,6 +50,9 @@ function Modal({ isOpen, onClose, contentType }) {
           <p className="dark:text-white py-4 text-sm text-gray">
             {t("card-berita.tanggal_berita.berita-2")}
           </p>
+          <h2 className="dark:text-white text-xl font-bold pb-4">
+            {t("card-berita.judul_berita.berita-2")}
+          </h2>
           <p className="text-semidark dark:text-white">
             <div>
               {t("card-berita.isi_berita.berita-2", {
@@ -65,9 +68,6 @@ function Modal({ isOpen, onClose, contentType }) {
     case "berita-3":
       modalContent = (
         <>
-          <h2 className="dark:text-white text-xl font-bold">
-            {t("card-berita.judul_berita.berita-3")}
-          </h2>
           <img
             src={berita3}
             alt="gambar berita-3"
@@ -76,6 +76,10 @@ function Modal({ isOpen, onClose, contentType }) {
           <p className="dark:text-white py-4 text-sm text-gray">
             {t("card-berita.tanggal_berita.berita-3")}
           </p>
+
+          <h2 className="dark:text-white text-xl font-bold pb-4">
+            {t("card-berita.judul_berita.berita-3")}
+          </h2>
           <p className="text-semidark dark:text-white">
             <div>
               {t("card-berita.isi_berita.berita-3", {
@@ -101,7 +105,7 @@ function Modal({ isOpen, onClose, contentType }) {
 
   return (
     <div
-      className="fixed inset-0 z-50 flex items-center justify-center"
+      className="fixed mx-4  inset-0 z-50 flex items-center justify-center"
       onClick={handleOverlayClick}
     >
       {/*Overlay*/}
@@ -111,7 +115,7 @@ function Modal({ isOpen, onClose, contentType }) {
       ></div>
       {/*Container*/}
       <div
-        className=" mx-4 rounded-lg relative bg-white dark:bg-gray-800 w-full max-w-4xl mx-auto rounded shadow-lg z-50 overflow-y-auto"
+        className="pb-6 mx-4 rounded-lg relative bg-white dark:bg-gray-800 w-full max-w-4xl mx-auto rounded shadow-lg z-50 overflow-y-auto"
         onClick={(e) => e.stopPropagation()}
       >
         <div className="scrollbar-hide rounded-lg dark:bg-dark modal-content py-4 text-left px-6 max-h-[80vh] overflow-y-auto">
@@ -123,15 +127,14 @@ function Modal({ isOpen, onClose, contentType }) {
           </div>
 
           <div>{modalContent}</div>
-
-          <div className="mt-4 flex justify-end">
-            <button
-              onClick={onClose}
-              className="modal-close px-4 bg-gray-100 dark:bg-gray-700 p-3 rounded-lg text-black dark:text-primary text-primary hover:bg-gray-200"
-            >
-              {t("card-berita.penutup-berita.tombol-penutup")}
-            </button>
-          </div>
+        </div>
+        <div className="flex justify-center">
+          <button
+            onClick={onClose}
+            className="modal-close px-4 bg-gray-100 dark:bg-gray-700 p-3 rounded-lg text-black dark:text-primary text-primary hover:bg-gray-200"
+          >
+            {t("card-berita.penutup-berita.tombol-penutup")}
+          </button>
         </div>
       </div>
     </div>
