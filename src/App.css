@@ -9,3 +9,30 @@ html {
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
+
+@keyframes move-up-down {
+  0%,
+  100% {
+    transform: translateY(-10px);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+}
+
+@keyframes move-down-up {
+  0%,
+  100% {
+    transform: translateY(10px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.animate-move-up-down {
+  animation: move-up-down 5s ease-in-out infinite;
+}
+.animate-move-down-up {
+  animation: move-down-up 5s ease-in-out infinite;
+}

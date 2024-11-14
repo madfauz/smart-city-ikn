@@ -9,7 +9,6 @@ import Modal from "./Modal";
 import News from "./News";
 import Footer from "./Footer";
 
-
 const Layout = () => {
   return (
     <React.Fragment>
