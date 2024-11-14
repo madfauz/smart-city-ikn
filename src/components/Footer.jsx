@@ -5,7 +5,7 @@ import { useTranslation } from "react-i18next";
 const Footer = () => {
   const { t, i18n } = useTranslation();
   return (
-    <footer className="bg-dark w-full">
+    <footer className="mt-[-2px] bg-dark w-full">
       <div className="container px-6 pt-12 pb-4 mx-auto">
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-4">
           <div className="sm:col-span-2">
@@ -45,14 +45,14 @@ const Footer = () => {
 
             <div className="flex flex-col items-start mt-2 space-y-2">
               <a
-                href="#sectionberita"
-                className="font-poppins text-gray transition-colors  duration-300 dark:text-gray dark:hover:text-primary hover:underline hover:cursor-pointer hover:text-primary"
+                href="#berita"
+                className=" text-gray transition-colors  duration-300 dark:text-gray dark:hover:text-primary hover:underline hover:cursor-pointer hover:text-primary"
               >
                 {t("footer.baris-kedua.list-1")}
               </a>
               <a
                 href="#sectionproyek"
-                className="font-poppins text-gray transition-colors  duration-300 dark:text-gray dark:hover:text-primary hover:underline hover:cursor-pointer hover:text-primary"
+                className=" text-gray transition-colors  duration-300 dark:text-gray dark:hover:text-primary hover:underline hover:cursor-pointer hover:text-primary"
               >
                 {t("footer.baris-kedua.list-2")}
               </a>

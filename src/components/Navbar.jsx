@@ -62,7 +62,7 @@ const Navbar = () => {
     <>
       <div
         className={`fixed top-0 left-0 w-full h-auto ${
-          darkMode ? "bg-dark" : "bg-secondary"
+          darkMode ? "bg-dark" : "bg-white"
         } transition-transform duration-300 ${
           showNavbar
             ? "transform translate-y-0 z-30"
@@ -99,7 +99,7 @@ const Navbar = () => {
               name="language"
               id="language"
               className={`${
-                darkMode ? "bg-dark text-secondary" : "bg-secondary text-dark"
+                darkMode ? "bg-dark text-secondary" : "bg-white text-dark"
               } px-4`}
               onChange={(e) => changeLanguage(e.target.value)}
               value={i18n.language}
@@ -113,7 +113,7 @@ const Navbar = () => {
 
             <button
               className={`p-2 rounded-full ${
-                darkMode ? "bg-dark" : "bg-secondary"
+                darkMode ? "bg-dark" : "bg-white"
               }`}
               onClick={toggleDarkMode}
             >
@@ -137,7 +137,7 @@ const Navbar = () => {
           </aside>
           <aside>
             <button
-              className={`${darkMode ? "bg-dark" : "bg-secondary"}`}
+              className={`${darkMode ? "bg-dark" : "bg-white"}`}
               onClick={toggleSidebar}
             >
               <img
@@ -164,7 +164,7 @@ const Navbar = () => {
         className={`fixed top-0 ${
           sidebar ? "left-0" : "left-[-100%]"
         } transition-left duration-300 ease-in z-50 flex flex-col md:hidden w-3/4 sm:w-2/3 h-full justify-start items-center pt-10 ${
-          darkMode ? "bg-dark" : "bg-secondary"
+          darkMode ? "bg-dark" : "bg-white"
         }`}
       >
         <aside className="w-4/5">
@@ -183,7 +183,7 @@ const Navbar = () => {
             <img
               src={JelajahiIcon}
               alt="jelajahi"
-              className={`w-6 h-full ${darkMode ? "bg-secondary" : ""}`}
+              className={`w-6 h-full ${darkMode ? "bg-white" : ""}`}
               style={{ filter: `${darkMode ? "invert(1)" : "grayscale(1)"}` }}
             />
             {t("jelajahi")}
@@ -196,7 +196,7 @@ const Navbar = () => {
             <img
               src={ProyekIcon}
               alt="proyek"
-              className={`w-6 h-full ${darkMode ? "bg-secondary" : ""}`}
+              className={`w-6 h-full ${darkMode ? "bg-white" : ""}`}
               style={{ filter: `${darkMode ? "invert(1)" : "grayscale(1)"}` }}
             />
             {t("proyek")}
@@ -209,7 +209,7 @@ const Navbar = () => {
             <img
               src={BeritaIcon}
               alt="berita"
-              className={`w-6 h-full ${darkMode ? "bg-secondary" : ""}`}
+              className={`w-6 h-full ${darkMode ? "bg-white" : ""}`}
               style={{ filter: `${darkMode ? "invert(1)" : "grayscale(1)"}` }}
             />
             {t("berita")}
@@ -217,11 +217,11 @@ const Navbar = () => {
 
           <aside
             className={`flex gap-3 items-center cursor-pointer w-full my-2 py-2 h-auto ${
-              darkMode ? "bg-dark" : "bg-secondary"
+              darkMode ? "bg-dark" : "bg-white"
             }`}
             onClick={toggleDarkMode}
           >
-            <button className="w-6 h-6 rounded-full flex justify-center items-center bg-dark dark:bg-secondary">
+            <button className="w-6 h-6 rounded-full flex justify-center items-center bg-dark dark:bg-white">
               {!darkMode ? (
                 <img
                   src={DarkModeIcon}
@@ -241,7 +241,7 @@ const Navbar = () => {
             name="language"
             id="language"
             className={`${
-              darkMode ? "bg-dark text-secondary" : "bg-secondary text-dark"
+              darkMode ? "bg-dark text-secondary" : "bg-white text-dark"
             } w-full my-2 py-2 font-normal text-[20px] font-poppins text-dark hover:text-primary dark:text-secondary dark:hover:text-primary text-[16px]`}
             onChange={(e) => changeLanguage(e.target.value)}
             value={i18n.language}
@@ -255,7 +255,7 @@ const Navbar = () => {
                 <img
                   src={BeritaIcon}
                   alt="icon"
-                  className={`w-6 h-6 ${darkMode ? "bg-secondary" : ""}`}
+                  className={`w-6 h-6 ${darkMode ? "bg-white" : ""}`}
                   style={{
                     filter: `${darkMode ? "invert(1)" : "grayscale(1)"}`,
                   }}

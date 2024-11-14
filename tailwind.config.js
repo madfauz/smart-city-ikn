@@ -1,8 +1,59 @@
 export default {
   darkMode: "class",
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  content: [
+    "./index.html",
+    "./src/**/*.{js,jsx,ts,tsx}", // Perhatikan dua tanda bintang '**' untuk mencakup semua sub-folder
+  ],
   theme: {
     extend: {
+      fontFamily: {
+        poppins: ["Poppins"],
+      },
+      fontSize: {
+        "vm-title": "24px",
+        "sm-title": "26px",
+        "md-title": "28px",
+        "lg-title": "30px",
+        "xl-title": "32px",
+
+        "vm-desc": "14px",
+        "sm-desc": "16px",
+        "md-desc": "18px",
+        "lg-desc": "20px",
+        "xl-desc": "22px",
+
+        "vm-card-title": "18px",
+        "sm-card-title": "20px",
+        "md-card-title": "22px",
+        "lg-card-title": "24px",
+        "xl-card-title": "26px",
+
+        "vm-card-desc": "14px",
+        "sm-card-desc": "16px",
+        "md-card-desc": "18px",
+        "lg-card-desc": "20px",
+        "xl-card-desc": "22px",
+
+        "vm-card-tag": "14px",
+        "sm-card-tag": "16px",
+        "md-card-tag": "18px",
+        "lg-card-tag": "20px",
+        "xl-card-tag": "22px",
+
+        "vm-card-date": "12px",
+        "sm-card-date": "14px",
+        "md-card-date": "16px",
+        "lg-card-date": "18px",
+        "xl-card-date": "20px",
+      },
+      spacing: {
+        vm: "8px",
+        sm: "12px",
+        md: "16px",
+        lg: "20px",
+        xl: "24px",
+      },
       fontFamily: {
         poppins: ["Poppins"],
       },
@@ -14,6 +65,18 @@ export default {
         xl: "24px",
       },
       colors: {
+        primary: "#D3A976",
+        secondary: "#FCF7F0",
+        dark: "#080809",
+        gray: "#666666",
+        semidark: "#2B2B2B",
+      },
+      boxShadow: {
+        "custom-dark": "0 2px 54px rgba(170, 170, 170, 0.28)",
+      },
+      gradientColorStops: {
+        "start-primary": "#EEB25C",
+        "end-primary": "#F9CA86",
         primary: "#D3A976",
         secondary: "#FCF7F0",
         dark: "#080809",
