@@ -6,7 +6,6 @@ import berita2 from "../assets/berita-2.jpeg";
 import berita3 from "../assets/berita-3.jpeg";
 import { useTranslation } from "react-i18next";
 
-
 function News() {
   const [selectedCategory, setSelectedCategory] = useState("kategori-1");
 
@@ -31,8 +30,10 @@ function News() {
   const { t, i18n } = useTranslation();
 
   return (
-    <div className="w-full px-4 sm:px-6 lg:px-8mx-auto dark:bg-dark">
-     
+    <div
+      id="sectionberita"
+      className="w-full px-4 sm:px-6 lg:px-8mx-auto dark:bg-dark"
+    >
       <div className="flex flex-col items-center justify-center text-center ">
         <p className="pt-8 mb-2 text-4xl sm:text-4xl md:text-5xl font-bold tracking-tight text-dark dark:text-white">
           {t("bagian_berita.header_berita")}

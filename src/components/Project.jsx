@@ -10,9 +10,10 @@ const Project = () => {
 
   return (
     <div
+      id="sectionproyek"
       className={`relative z-20 flex py-8 md:py-12 flex-col gap-4 md:gap-8 px-sm sm:px-sm md:px-md lg:px-lg xl:px-xl dark:bg-dark bg-secondary`}
     >
-      <section className="flex flex-col gap-2">
+      <section className="flex flex-col gap-2 ">
         <h2 className="font-poppins font-bold text-[24px] md:text-[28px] text-center text-dark dark:text-secondary">
           {t("konten-proyek.judul")}
         </h2>

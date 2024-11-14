@@ -26,9 +26,14 @@ const Footer = () => {
             </p>
 
             <div className="flex flex-col items-start mt-2 space-y-2">
-              <p className="dark:text-gray text-gray transition-colors  duration-300  dark:hover:text-primary hover:underline hover:cursor-pointer hover:text-primary">
+              <a
+                link
+                target="_blank"
+                href="https://maps.app.goo.gl/MKb7hnrbHT1y3Sa77"
+                className="dark:text-gray text-gray transition-colors  duration-300  dark:hover:text-primary hover:underline hover:cursor-pointer hover:text-primary"
+              >
                 {t("footer.baris-pertama.list-1")}
-              </p>
+              </a>
             </div>
           </div>
 
@@ -39,12 +44,18 @@ const Footer = () => {
             </p>
 
             <div className="flex flex-col items-start mt-2 space-y-2">
-              <p className=" text-gray transition-colors  duration-300 dark:text-gray dark:hover:text-primary hover:underline hover:cursor-pointer hover:text-primary">
+              <a
+                href="#sectionberita"
+                className=" text-gray transition-colors  duration-300 dark:text-gray dark:hover:text-primary hover:underline hover:cursor-pointer hover:text-primary"
+              >
                 {t("footer.baris-kedua.list-1")}
-              </p>
-              <p className=" text-gray transition-colors  duration-300 dark:text-gray dark:hover:text-primary hover:underline hover:cursor-pointer hover:text-primary">
+              </a>
+              <a
+                href="#sectionproyek"
+                className=" text-gray transition-colors  duration-300 dark:text-gray dark:hover:text-primary hover:underline hover:cursor-pointer hover:text-primary"
+              >
                 {t("footer.baris-kedua.list-2")}
-              </p>
+              </a>
             </div>
 
             <p className="font-semibold  mt-8 text-white">
@@ -52,23 +63,43 @@ const Footer = () => {
             </p>
 
             <div className="flex flex-col items-start mt-2 space-y-2">
-              <p className=" text-gray transition-colors  duration-300 dark:text-gray dark:hover:text-primary hover:underline hover:cursor-pointer hover:text-primary">
+              <a
+                link
+                href="https://www.instagram.com/ikn_id"
+                target="_blank"
+                className=" text-gray transition-colors  duration-300 dark:text-gray dark:hover:text-primary hover:underline hover:cursor-pointer hover:text-primary"
+              >
                 {t("footer.baris-ketiga.list-1")}
-              </p>
-              <p className=" text-gray transition-colors  duration-300 dark:text-gray dark:hover:text-primary hover:underline hover:cursor-pointer hover:text-primary">
+              </a>
+              <a
+                link
+                href="https://www.facebook.com/iknindonesia1"
+                target="_blank"
+                className=" text-gray transition-colors  duration-300 dark:text-gray dark:hover:text-primary hover:underline hover:cursor-pointer hover:text-primary"
+              >
                 {t("footer.baris-ketiga.list-2")}
-              </p>
-              <p className=" text-gray transition-colors  duration-300 dark:text-gray dark:hover:text-primary hover:underline hover:cursor-pointer hover:text-primary">
+              </a>
+              <a
+                link
+                href="https://x.com/ikn_id"
+                target="_blank"
+                className=" text-gray transition-colors  duration-300 dark:text-gray dark:hover:text-primary hover:underline hover:cursor-pointer hover:text-primary"
+              >
                 {t("footer.baris-ketiga.list-3")}
-              </p>
-              <p className=" text-gray transition-colors  duration-300 dark:text-gray dark:hover:text-primary hover:underline hover:cursor-pointer hover:text-primary">
+              </a>
+              <a
+                link
+                href="https://www.youtube.com/@iknindonesia4397"
+                target="_blank"
+                className=" text-gray transition-colors  duration-300 dark:text-gray dark:hover:text-primary hover:underline hover:cursor-pointer hover:text-primary"
+              >
                 {t("footer.baris-ketiga.list-4")}
-              </p>
+              </a>
             </div>
           </div>
         </div>
 
-        <hr className="mt-12 border-gray-200 md:mt-12 dark:border-gray-700 h-2" />
+        <hr className="mt-12 border-gray md:mt-12 dark:border-gray-700 h-2" />
         <p className="font-semibold p-2 text-white md:text-center md:text-lg md:p-4">
           © 2024 Copyright IKN Smart City
         </p>
