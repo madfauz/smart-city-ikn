@@ -6,7 +6,7 @@ const Desc = () => {
       <h2 className="w-3/4 md:w-1/2 lg:w-1/3 leading-8 md:leading-10 font-poppins font-bold text-center text-dark dark:text-secondary md:text-right text-vm-title sm:text-sm-title md:text-md-title lg:text-lg-title xl:text-xl-title">
         {t("konten-desc.judul")}
       </h2>
-      <h4 className="w-3/4 md:w-1/2 lg:w-2/3 leading-8 md:leading-10 font-poppins font-medium text-center text-gray dark:text-secondary md:text-left text-vm-desc sm:text-sm-desc md:text-md-desc lg:text-lg-desc xl:text-xl-desc">
+      <h4 className="w-3/4 md:w-1/2 lg:w-2/3 leading-8 md:leading-10 font-poppins font-normal text-center text-gray dark:text-secondary md:text-left text-vm-desc sm:text-sm-desc md:text-md-desc lg:text-lg-desc xl:text-xl-desc">
         {t("konten-proyek.deskripsi")}
       </h4>
     </div>

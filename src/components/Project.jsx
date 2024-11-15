@@ -18,7 +18,7 @@ const Project = () => {
           {t("konten-proyek.judul")}
         </h2>
 
-        <p className="font-poppins font-medium text-vm-desc sm:text-sm-desc md:text-md-desc lg:text-lg-desc xl:text-xl-desc text-center text-dark dark:text-secondary">
+        <p className="font-poppins font-normal text-vm-desc sm:text-sm-desc md:text-md-desc lg:text-lg-desc xl:text-xl-desc text-center text-dark dark:text-secondary">
           {t("konten-proyek.deskripsi")}
         </p>
       </section>
@@ -40,7 +40,7 @@ const Project = () => {
               <span className="font-poppins font-semibold text-vm-card-title sm:text-sm-card-title md:text-md-card-title lg:text-lg-card-title xl:text-xl-card-title">
                 {t("konten-proyek.judul-proyek.proyek-1")}
               </span>
-              <p className="font-poppins font-normal italic text-vm-card-desc sm:text-sm-card-desc md:text-md-card-desc lg:text-lg-card-desc xl:text-xl-card-desc line-clamp-2">
+              <p className="font-poppins font-light italic text-vm-card-desc sm:text-sm-card-desc md:text-md-card-desc lg:text-lg-card-desc xl:text-xl-card-desc line-clamp-2">
                 {t("konten-proyek.deskripsi-proyek.proyek-1")}
               </p>
             </div>
@@ -60,7 +60,7 @@ const Project = () => {
               <span className="font-poppins font-semibold text-vm-card-title sm:text-sm-card-title md:text-md-card-title lg:text-lg-card-title xl:text-xl-card-title">
                 {t("konten-proyek.judul-proyek.proyek-2")}
               </span>
-              <p className="font-poppins font-normal italic text-vm-card-desc sm:text-sm-card-desc md:text-md-card-desc lg:text-lg-card-desc xl:text-xl-card-desc line-clamp-2">
+              <p className="font-poppins font-light italic text-vm-card-desc sm:text-sm-card-desc md:text-md-card-desc lg:text-lg-card-desc xl:text-xl-card-desc line-clamp-2">
                 {t("konten-proyek.deskripsi-proyek.proyek-2")}
               </p>
             </div>
@@ -82,7 +82,7 @@ const Project = () => {
               <span className="font-poppins font-semibold text-vm-card-title sm:text-sm-card-title md:text-md-card-title lg:text-lg-card-title xl:text-xl-card-title">
                 {t("konten-proyek.judul-proyek.proyek-3")}
               </span>
-              <p className="font-poppins font-normal italic text-vm-card-desc sm:text-sm-card-desc md:text-md-card-desc lg:text-lg-card-desc xl:text-xl-card-desc line-clamp-2">
+              <p className="font-poppins font-light italic text-vm-card-desc sm:text-sm-card-desc md:text-md-card-desc lg:text-lg-card-desc xl:text-xl-card-desc line-clamp-2">
                 {t("konten-proyek.deskripsi-proyek.proyek-3")}
               </p>
             </div>
@@ -104,7 +104,7 @@ const Project = () => {
               <span className="font-poppins font-semibold text-vm-card-title sm:text-sm-card-title md:text-md-card-title lg:text-lg-card-title xl:text-xl-card-title">
                 {t("konten-proyek.judul-proyek.proyek-4")}
               </span>
-              <p className="font-poppins font-normal italic text-vm-card-desc sm:text-sm-card-desc md:text-md-card-desc lg:text-lg-card-desc xl:text-xl-card-desc line-clamp-2">
+              <p className="font-poppins font-light italic text-vm-card-desc sm:text-sm-card-desc md:text-md-card-desc lg:text-lg-card-desc xl:text-xl-card-desc line-clamp-2">
                 {t("konten-proyek.deskripsi-proyek.proyek-4")}
               </p>
             </div>
@@ -124,7 +124,7 @@ const Project = () => {
               <span className="font-poppins font-semibold text-vm-card-title sm:text-sm-card-title md:text-md-card-title lg:text-lg-card-title xl:text-xl-card-title">
                 {t("konten-proyek.judul-proyek.proyek-5")}
               </span>
-              <p className="font-poppins font-normal italic text-vm-card-desc sm:text-sm-card-desc md:text-md-card-desc lg:text-lg-card-desc xl:text-xl-card-desc line-clamp-2">
+              <p className="font-poppins font-light italic text-vm-card-desc sm:text-sm-card-desc md:text-md-card-desc lg:text-lg-card-desc xl:text-xl-card-desc line-clamp-2">
                 {t("konten-proyek.deskripsi-proyek.proyek-5")}
               </p>
             </div>
