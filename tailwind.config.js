@@ -57,6 +57,12 @@ export default {
         gray: "#666666",
         semidark: "#2B2B2B",
       },
+      fontColor: {
+        "title-color": "#080809",
+        "desc-color": "#2B2B2B",
+        "card-desc-color": "#2B2B2B",
+        "card-date-color": "#666666",
+      },
       boxShadow: {
         "custom-dark": "0 2px 54px rgba(170, 170, 170, 0.28)",
       },
