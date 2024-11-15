@@ -109,42 +109,29 @@
       "list-4": "Youtube"
     }
   },
-
-  "konten-fitur": {
+  "konten-fitur":{
     "judul": "Apa saja keunggulan IKN Smart City",
-    "Deskripsi1": "Ada banyak keunggulan dari IKN Smart City yang dapat",
-    "Deskripsi2": "memberikan manfaat bagi semua orang",
+    "Deskripsi1":"Ada banyak keunggulan dari IKN Smart City yang dapat",
+    "Deskripsi2":"memberikan manfaat bagi semua orang",
 
     "Judul-Layanan-Public1": "Layanan Public yang ",
     "Judul-Layanan-Public2": "terintegrasi",
 
     "Deskripsi-Layanan-Public": "menyediakan layanan public yang terintegrasi melalu teknologi digital seperti sistem pelaporan masalah melalui aplikasi selular",
 
+
     "Judul-Kota-Iot1": "Kota yang berbasis",
     "Judul-Kota-Iot2": "Internet of Things (IoT)",
+
 
     "Deskripsi-Kota-Iot": "Mengadopsi Internet of Things yang memungkinkan berbagai perangkat terhubung dari lampu jalan hingga sarana transportasi",
 
     "Judul-Menerapkan-Smart1": "Menerapkan",
-    "Judul-Menerapkan-Smart2": "Smart Goverment",
+    "Judul-Menerapkan-Smart2" : "Smart Goverment",
 
     "Deskirpsi-Menerapkan-Smart": "Menggunakan pemanfaatan teknologi informasi dan komunikasi untuk membuat tata kelola pemerintahan yang transparan, mudah diakses dan melibatkan partisipasi public"
-  },
-  "konten-carousel": {
-    "judul": "Nusantara:",
-    "deskripsi": "Kota Masa Depan",
-    "bubble": {
-      "judul-1": "+10 Negara",
-      "judul-2": "+1,5 Juta",
-      "judul-3": "100%",
-      "judul-4": "+56 Triliun",
-      "deskripsi-1": "Berminat investasi di IKN",
-      "deskripsi-2": "Jumlah penduduk",
-      "deskripsi-3-1": "Target tingkat penggunaan",
-      "deskripsi-3-2": "energi hijau",
-      "deskripsi-4": "Dana Investasi"
-    },
-    "text-bawah": "Ingin melihat kota ini lebih jauh?",
-    "text-tombol": "Jelajahi"
+
+
+
   }
 }
