@@ -9,9 +9,9 @@ import "aos/dist/aos.css";
 AOS.init();
 AOS.init({
   once: false,
-  offset: 300,
-  delay: 400,
-  duration: 1000,
+  offset: 200,
+  delay: 300,
+  duration: 700,
 });
 createRoot(document.getElementById("root")).render(
   <StrictMode>
