@@ -34,11 +34,11 @@ function News() {
       className="w-full mt-[-2px] px-4 sm:px-6 lg:px-8mx-auto dark:bg-dark"
     >
       <div className="flex flex-col items-center justify-center text-center ">
-        <h2 className="font-poppins pt-8 mb-2 text-vm-title sm:text-sm-title md:text-md-title lg:text-lg-title xl:text-xl-title font-bold tracking-tight text-dark dark:text-white">
+        <h2 className="font-poppins pt-8 mb-2 text-vm-title sm:text-sm-title md:text-md-title lg:text-lg-title xl:text-xl-title font-bold tracking-tight title-color dark:text-white">
           {t("bagian_berita.header_berita")}
         </h2>
 
-        <p className="font-poppins dark:text-white text-vm-desc sm:text-sm-desc md:text-md-desc lg:text-lg-desc xl:text-xl-desc mb-4 sm:mb-6 md:mb-md text-gray">
+        <p className="font-poppins dark:text-semilight text-vm-desc sm:text-sm-desc md:text-md-desc lg:text-lg-desc xl:text-xl-desc mb-4 sm:mb-6 md:mb-md desc-color">
           {t("bagian_berita.deskripsi_berita")}
         </p>
       </div>
@@ -50,7 +50,7 @@ function News() {
           className={`${
             selectedCategory === "kategori-1"
               ? "font-poppins bg-primary text-white hover:text-white dark:hover:text-white dark:border-none border-none"
-              : "font-poppins bg-white dark:bg-dark text-gray dark:border-opacity-20 border-2"
+              : "font-poppins bg-white dark:bg-dark dark:text-semilight text-gray dark:border-opacity-20 border-2"
           } border border-dark border-opacity-20 vm-card-tag sm-card-tag md-card-tag lg-card-tag xl-card-tag font-poppins dark:border-white dark:text-white dark:hover:text-primary dark:hover:border-primary hover:text-primary hover:cursor-pointer hover:border-primary leading-[1.5] py-2 px-4 md:py-3 md:px-6 rounded-lg flex items-center justify-center font-regular `}
         >
           {t("kategori-konten.kategori-1")}
@@ -61,7 +61,7 @@ function News() {
           className={`${
             selectedCategory === "kategori-2"
               ? "font-poppins bg-primary text-white hover:text-white dark:hover:text-white dark:border-none border-none"
-              : "font-poppins bg-white dark:bg-dark text-gray dark:border-opacity-20 border-2"
+              : "font-poppins bg-white dark:bg-dark dark:text-semilight text-gray dark:border-opacity-20 border-2"
           } border border-dark border-opacity-20 vm-card-tag sm-card-tag md-card-tag lg-card-tag xl-card-tag font-poppins dark:border-white dark:text-white dark:hover:text-primary dark:hover:border-primary hover:text-primary hover:cursor-pointer hover:border-primary leading-[1.5]  py-2 px-4 md:py-3 md:px-6 rounded-lg flex items-center justify-center font-regular `}
         >
           {t("kategori-konten.kategori-2")}
@@ -72,7 +72,7 @@ function News() {
           className={`${
             selectedCategory === "kategori-3"
               ? "font-poppins bg-primary text-white hover:text-white dark:hover:text-white dark:border-none border-none"
-              : "font-poppins bg-white dark:bg-dark text-gray dark:border-opacity-20 border-2"
+              : "font-poppins bg-white dark:bg-dark dark:text-semilight text-gray  dark:border-opacity-20 border-2"
           } border border-dark border-opacity-20 vm-card-tag sm-card-tag md-card-tag lg-card-tag xl-card-tag font-poppins dark:border-white dark:text-white dark:hover:text-primary dark:hover:border-primary hover:text-primary hover:cursor-pointer hover:border-primary leading-[1.5] py-2 px-4 md:py-3 md:px-6 rounded-lg flex items-center justify-center font-regular`}
         >
           {t("kategori-konten.kategori-3")}
@@ -112,13 +112,13 @@ function News() {
                 </div>
               </div>
               <div className="px-4 pb-8 pt-1">
-                <p className="font-poppins dark:text-white text-gray text-left vm-card-date sm-card-date md-card-date lg-card-date xl-card-date mb-1">
+                <p className="font-poppins dark:text-semilight text-gray text-left vm-card-date sm-card-date md-card-date lg-card-date xl-card-date mb-1">
                   {t("card-berita.tanggal_berita.berita-1")}
                 </p>
-                <div className="vm-card-title sm-card-title md-card-title lg-card-title xl-card-title font-poppins hover:underline dark:hover:underline dark:text-white font-bold text-dark mb-2 line-clamp-2">
+                <div className="text-dark vm-card-title sm-card-title md-card-title lg-card-title xl-card-title font-poppins hover:underline dark:hover:underline dark:text-white font-bold title-color mb-2 line-clamp-2">
                   {t("card-berita.judul_berita.berita-1")}
                 </div>
-                <p className="font-poppins dark:text-white text-semidark font-regular vm-card-desc sm-card-desc md-card-desc lg-card-desc xl-card-desc line-clamp-5">
+                <p className="font-poppins dark:text-semilight text-semidark font-regular vm-card-desc sm-card-desc md-card-desc lg-card-desc xl-card-desc line-clamp-5">
                   {t("card-berita.preview_berita.preview-1")}
                 </p>
               </div>
@@ -146,13 +146,13 @@ function News() {
               </div>
 
               <div className="px-4 pb-8 pt-1">
-                <p className="font-poppins dark:text-white text-gray text-left vm-card-date sm-card-date md-card-date lg-card-date xl-card-date mb-1">
+                <p className="font-poppins dark:text-semilight text-gray text-left vm-card-date sm-card-date md-card-date lg-card-date xl-card-date mb-1">
                   {t("card-berita.tanggal_berita.berita-2")}
                 </p>
-                <div className="vm-card-title sm-card-title md-card-title lg-card-title xl-card-title font-poppins hover:underline dark:hover:underline dark:text-white font-bold text-dark mb-2 line-clamp-2">
+                <div className="text-dark vm-card-title sm-card-title md-card-title lg-card-title xl-card-title font-poppins hover:underline dark:hover:underline dark:text-white font-bold title-color mb-2 line-clamp-2">
                   {t("card-berita.judul_berita.berita-2")}
                 </div>
-                <p className="font-poppins dark:text-white text-semidark font-regular vm-card-desc sm-card-desc md-card-desc lg-card-desc xl-card-desc line-clamp-5">
+                <p className="font-poppins dark:text-semilight text-semidark font-regular vm-card-desc sm-card-desc md-card-desc lg-card-desc xl-card-desc line-clamp-5">
                   {t("card-berita.preview_berita.preview-2")}
                 </p>
               </div>
@@ -179,13 +179,13 @@ function News() {
               </div>
 
               <div className="px-4 pb-8 pt-1">
-                <p className="font-poppins dark:text-white text-gray text-left vm-card-date sm-card-date md-card-date lg-card-date xl-card-date mb-1">
+                <p className="font-poppins dark:text-semilight text-gray text-left vm-card-date sm-card-date md-card-date lg-card-date xl-card-date mb-1">
                   {t("card-berita.tanggal_berita.berita-3")}
                 </p>
-                <div className="vm-card-title sm-card-title md-card-title lg-card-title xl-card-title font-poppins dark:text-white hover:underline dark:hover:underline  font-bold text-dark mb-2 line-clamp-2">
+                <div className="text-dark vm-card-title sm-card-title md-card-title lg-card-title xl-card-title font-poppins dark:text-white hover:underline dark:hover:underline  font-bold title-color mb-2 line-clamp-2">
                   {t("card-berita.judul_berita.berita-3")}
                 </div>
-                <p className="font-poppins dark:text-white text-semidark font-regular vm-card-desc sm-card-desc md-card-desc lg-card-desc xl-card-desc line-clamp-5">
+                <p className="font-poppins dark:text-semilight text-semidark font-regular vm-card-desc sm-card-desc md-card-desc lg-card-desc xl-card-desc line-clamp-5">
                   {t("card-berita.preview_berita.preview-3")}
                 </p>
               </div>

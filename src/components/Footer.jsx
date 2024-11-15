@@ -99,7 +99,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <hr className="mt-12 border-gray border-opacity-40 md:mt-12 dark:border-opacity-40 dark:border-gray h-2" />
+        <hr className="mt-12 border-semidark md:mt-12 dark:border-semidark h-2" />
         <p className="justify-center text-center  vm-desc sm-desc md-desc lg-desc xl-desc font-poppins font-semibold p-2 text-white  md:p-4">
           © 2024 Copyright IKN Smart City
         </p>
