@@ -114,7 +114,7 @@ function Modal({ isOpen, onClose, contentType }) {
       ></div>
       {/*Container*/}
       <div
-        className="dark:bg-dark pb-6 mx-4 rounded-tl-lg rounded-tr-lg relative bg-white w-full max-w-4xl mx-auto rounded shadow-lg z-50 overflow-y-auto"
+        className="dark:border-semilight dark:border-2  dark:bg-dark pb-6 mx-4 rounded-tl-lg rounded-tr-lg relative bg-white w-full max-w-4xl mx-auto rounded shadow-lg z-50 overflow-y-auto"
         onClick={(e) => e.stopPropagation()}
       >
         <div className="scrollbar-hide rounded-tl-lg rounded-tr-lg dark:bg-dark modal-content py-4 text-left px-6 max-h-[80vh] overflow-y-auto">
