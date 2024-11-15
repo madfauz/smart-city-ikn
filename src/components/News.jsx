@@ -38,7 +38,7 @@ function News() {
           {t("bagian_berita.header_berita")}
         </h2>
 
-        <p className="font-poppins dark:text-white text-vm-desc sm:text-sm-desc md:text-md-desc lg:text-lg-desc xl:text-xl-desc mb-4 sm:mb-6 md:mb-md text-gray-700">
+        <p className="font-poppins dark:text-white text-vm-desc sm:text-sm-desc md:text-md-desc lg:text-lg-desc xl:text-xl-desc mb-4 sm:mb-6 md:mb-md text-gray">
           {t("bagian_berita.deskripsi_berita")}
         </p>
       </div>
