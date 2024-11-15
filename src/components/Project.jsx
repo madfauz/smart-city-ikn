@@ -14,11 +14,11 @@ const Project = () => {
       id="proyek"
     >
       <section className="flex flex-col gap-2 ">
-        <h2 className="font-poppins font-bold text-vm-title sm:text-sm-title md:text-md-title lg:text-lg-title xl:text-xl-title text-center text-dark dark:text-secondary">
+        <h2 className="font-poppins font-bold text-vm-title sm:text-sm-title md:text-md-title lg:text-lg-title xl:text-xl-title text-center text-dark dark:text-secondary pt-8 mb-2">
           {t("konten-proyek.judul")}
         </h2>
 
-        <p className="font-poppins font-normal text-vm-desc sm:text-sm-desc md:text-md-desc lg:text-lg-desc xl:text-xl-desc text-center text-dark dark:text-secondary">
+        <p className="font-poppins font-normal text-vm-desc sm:text-sm-desc md:text-md-desc lg:text-lg-desc xl:text-xl-desc text-center text-dark dark:text-secondary mb-4 sm:mb-6 md:mb-md">
           {t("konten-proyek.deskripsi")}
         </p>
       </section>

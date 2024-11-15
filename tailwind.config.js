@@ -25,11 +25,11 @@ export default {
         "lg-card-title": "24px",
         "xl-card-title": "26px",
 
-        "vm-card-desc": "14px",
-        "sm-card-desc": "16px",
-        "md-card-desc": "18px",
-        "lg-card-desc": "20px",
-        "xl-card-desc": "22px",
+        "vm-card-desc": "12px",
+        "sm-card-desc": "14px",
+        "md-card-desc": "16px",
+        "lg-card-desc": "18px",
+        "xl-card-desc": "20px",
 
         "vm-card-tag": "14px",
         "sm-card-tag": "16px",

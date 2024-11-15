@@ -174,11 +174,11 @@ const Navbar = () => {
             className="w-[120px] h-auto pb-20"
           />
         </aside>
-        <aside className="w-4/5 flex flex-col justify-center items-start">
+        <aside className="w-full flex flex-col justify-center items-start">
           <a
             onClick={toggleSidebar}
             href="#jelajahi"
-            className="flex gap-3 items-center font-poppins cursor-pointer font-normal text-[20px] font-poppins text-dark hover:text-primary dark:text-secondary dark:hover:text-primary text-[16px] w-full py-4 "
+            className="flex gap-3 items-center font-poppins cursor-pointer font-normal text-[20px] font-poppins text-dark hover:text-dark dark:text-secondary dark:hover:text-white text-[16px] w-full py-4 px-[10%] hover:bg-[#E1DFDF] dark:hover:bg-semidark"
           >
             <img
               src={JelajahiIcon}
@@ -191,7 +191,7 @@ const Navbar = () => {
           <a
             onClick={toggleSidebar}
             href="#proyek"
-            className="flex gap-3 items-center font-poppins cursor-pointer font-normal text-[20px] font-poppins text-dark hover:text-primary dark:text-secondary dark:hover:text-primary text-[16px] w-full py-4 "
+            className="flex gap-3 items-center font-poppins cursor-pointer font-normal text-[20px] font-poppins text-dark hover:text-dark dark:text-secondary dark:hover:text-white text-[16px] w-full py-4 px-[10%] hover:bg-[#E1DFDF] dark:hover:bg-semidark"
           >
             <img
               src={ProyekIcon}
@@ -204,7 +204,7 @@ const Navbar = () => {
           <a
             onClick={toggleSidebar}
             href="#berita"
-            className="flex gap-3 items-center font-poppins cursor-pointer font-normal text-[20px] font-poppins text-dark hover:text-primary dark:text-secondary dark:hover:text-primary text-[16px] w-full py-4 "
+            className="flex gap-3 items-center font-poppins cursor-pointer font-normal text-[20px] font-poppins text-dark hover:text-dark dark:text-secondary dark:hover:text-white text-[16px] w-full py-4 px-[10%] hover:bg-[#E1DFDF] dark:hover:bg-semidark"
           >
             <img
               src={BeritaIcon}
@@ -216,9 +216,9 @@ const Navbar = () => {
           </a>
 
           <aside
-            className={`flex gap-3 items-center cursor-pointer w-full my-2 py-2 h-auto ${
+            className={`flex gap-3 items-center cursor-pointer px-[10%] w-full py-4 h-auto ${
               darkMode ? "bg-dark" : "bg-white"
-            }`}
+            } hover:bg-[#E1DFDF] dark:hover:bg-semidark`}
             onClick={toggleDarkMode}
           >
             <button className="w-6 h-6 rounded-full flex justify-center items-center bg-dark dark:bg-white">
@@ -232,7 +232,7 @@ const Navbar = () => {
                 <img src={LightModeIcon} alt="Dark Mode" />
               )}
             </button>
-            <span className="font-normal text-[20px] font-poppins text-dark hover:text-primary dark:text-secondary dark:hover:text-primary text-[16px]">
+            <span className="font-normal text-[20px] font-poppins text-dark hover:text-dark dark:text-secondary dark:hover:text-white text-[16px]">
               {!darkMode ? "Dark Mode" : "Light Mode"}
             </span>
           </aside>
@@ -242,7 +242,7 @@ const Navbar = () => {
             id="language"
             className={`${
               darkMode ? "bg-dark text-secondary" : "bg-white text-dark"
-            } w-full my-2 py-2 font-normal text-[20px] font-poppins text-dark hover:text-primary dark:text-secondary dark:hover:text-primary text-[16px]`}
+            } px-[10%] w-[90%] py-4 font-normal text-[20px] font-poppins text-dark hover:text-primary dark:text-secondary dark:hover:text-primary text-[16px]`}
             onChange={(e) => changeLanguage(e.target.value)}
             value={i18n.language}
           >
