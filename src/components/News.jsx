@@ -46,6 +46,7 @@ function News() {
       {/*Category*/}
       <div className="flex justify-start gap-4 flex-wrap hidden md:flex">
         <span
+          data-aos="fade-right"
           onClick={() => handleCategoryClick("kategori-1")}
           className={`${
             selectedCategory === "kategori-1"
@@ -57,6 +58,7 @@ function News() {
         </span>
 
         <span
+          data-aos="fade-right"
           onClick={() => handleCategoryClick("kategori-2")}
           className={`${
             selectedCategory === "kategori-2"
@@ -68,6 +70,7 @@ function News() {
         </span>
 
         <span
+          data-aos="fade-right"
           onClick={() => handleCategoryClick("kategori-3")}
           className={`${
             selectedCategory === "kategori-3"
@@ -96,6 +99,7 @@ function News() {
           {(selectedCategory === "kategori-1" ||
             selectedCategory === "kategori-2") && (
             <div
+              data-aos="fade-down"
               onClick={() => openModal("berita-1")}
               className="hover:shadow-none hover:border hover:border-gray hover:border-opacity-40 bg-white dark:hover:border-primary dark:bg-dark dark:border-2 dark:border-opacity-20 dark:border-white rounded-xl shadow-lg dark:shadow-none hover:cursor-pointer overflow-hidden w-72 sm:w-auto"
             >
@@ -129,6 +133,7 @@ function News() {
           {(selectedCategory === "kategori-1" ||
             selectedCategory === "kategori-3") && (
             <div
+              data-aos="fade-down"
               onClick={() => openModal("berita-2")}
               className="hover:shadow-none hover:border hover:border-gray hover:border-opacity-40 bg-white dark:hover:border-primary dark:bg-dark dark:border-2 dark:border-opacity-20 dark:border-white rounded-xl shadow-lg dark:shadow-none hover:cursor-pointer overflow-hidden w-72 sm:w-auto"
             >
@@ -162,6 +167,7 @@ function News() {
           {(selectedCategory === "kategori-1" ||
             selectedCategory === "kategori-2") && (
             <div
+              data-aos="fade-down"
               onClick={() => openModal("berita-3")}
               className="hover:shadow-none hover:border hover:border-gray hover:border-opacity-40 bg-white dark:hover:border-primary dark:bg-dark dark:border-2 dark:border-opacity-20 dark:border-white rounded-xl shadow-lg dark:shadow-none hover:cursor-pointer overflow-hidden w-72 sm:w-auto"
             >
