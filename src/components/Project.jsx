@@ -18,7 +18,7 @@ const Project = () => {
           {t("konten-proyek.judul")}
         </h2>
 
-        <p className="font-poppins font-normal text-vm-desc sm:text-sm-desc md:text-md-desc lg:text-lg-desc xl:text-xl-desc text-center text-dark dark:text-secondary mb-4 sm:mb-6 md:mb-md">
+        <p className="font-poppins font-normal text-vm-desc sm:text-sm-desc md:text-md-desc lg:text-lg-desc xl:text-xl-desc text-center text-dark dark:text-secondary mb-4 sm:mb-6 md:mb-md w-10/12 lg:w-2/3 mx-auto">
           {t("konten-proyek.deskripsi")}
         </p>
       </section>
