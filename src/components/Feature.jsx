@@ -18,7 +18,7 @@ const Feature = () => {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 gap-[20px] lg:grid-cols-3">
+      <div className="grid grid-cols-1 gap-[20px] md:grid-cols-3">
         <div className="shadow-custom-dark w-full h-auto bg-white p-4 rounded-[20px] dark:border-gray dark:border-2 dark:bg-dark">
           <div className="w-[80px] h-[80px] bg-primary rounded-xl flex justify-center items-center">
             <svg
@@ -35,7 +35,7 @@ const Feature = () => {
           </div>
 
           <h2 className="text-vm-card-title sm:text-sm-card-title md:text-md-card-title lg:text-lg-card-title xl:text-xl-card-title font-bold mt-vm sm:mt-sm md:mt-md lg:mt-lg xl:mt-xl dark:text-white">
-            {t("konten-fitur.Judul-Layanan-Public1")} <br></br>
+            {t("konten-fitur.Judul-Layanan-Public1")}{" "}
             {t("konten-fitur.Judul-Layanan-Public2")}
           </h2>
 
@@ -60,7 +60,7 @@ const Feature = () => {
           </div>
 
           <h2 className="text-vm-card-title sm:text-sm-card-title md:text-md-card-title lg:text-lg-card-title xl:text-xl-card-title font-bold mt-vm sm:mt-sm md:mt-md lg:mt-lg xl:mt-xl dark:text-white">
-            {t("konten-fitur.Judul-Kota-Iot1")} <br></br>
+            {t("konten-fitur.Judul-Kota-Iot1")}{" "}
             {t("konten-fitur.Judul-Kota-Iot2")}
           </h2>
 
@@ -87,7 +87,7 @@ const Feature = () => {
           </div>
 
           <h2 className="text-vm-card-title sm:text-sm-card-title md:text-md-card-title lg:text-lg-card-title xl:text-xl-card-title font-bold mt-vm sm:mt-sm md:mt-md lg:mt-lg xl:mt-xl dark:text-white">
-            {t("konten-fitur.Judul-Menerapkan-Smart1")} <br></br>
+            {t("konten-fitur.Judul-Menerapkan-Smart1")}{" "}
             {t("konten-fitur.Judul-Menerapkan-Smart2")}
           </h2>
 
