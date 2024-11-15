@@ -5,16 +5,16 @@ const Feature = () => {
 
   return (
     <div
-      className="px-vm sm:px-sm lg:px-lg xl:px-xl h-auto pt-5 pb-[60px] font-poppins dark:bg-dark"
+      className="px-vm sm:px-sm lg:px-lg xl:px-xl h-auto pt-[20px] pb-[80px] mt-[-1px] font-poppins  dark:bg-dark"
       id="jelajahi"
     >
       <div className="text-center dark:text-white mb-6">
-        <h2 className="text-2xl font-bold lg:text-3xl">
+        <h2 className="text-vm-title sm:text-sm-title md:text-md-desc lg:text-lg-title xl:text-xl-title font-bold pt-8 mb-2 w-10/12 lg:w-2/3 mx-auto">
           {t("konten-fitur.judul")}
         </h2>
-        <p className="text-[12px] mt-2 lg:text-xl">
-          {t("konten-fitur.Deskripsi1")} <br></br>{" "}
-          {t("konten-fitur.Deskripsi2")}
+
+        <p className="text-vm-desc sm:text-sm-desc md:text-md-desc lg:text-lg-desc xl:text-xl-desc font-medium mb-4 sm:mb-6 md:mb-md w-10/12 lg:w-2/3 mx-auto">
+          {t("konten-fitur.Deskripsi1")} {t("konten-fitur.Deskripsi2")}
         </p>
       </div>
 
@@ -34,12 +34,12 @@ const Feature = () => {
             </svg>
           </div>
 
-          <h2 className=" text-2xl font-bold mt-4  lg:text-2xl dark:text-white">
-            {t("konten-fitur.Judul-Layanan-Public1")} <br></br>
+          <h2 className="text-vm-card-title sm:text-sm-card-title md:text-md-card-title lg:text-lg-card-title xl:text-xl-card-title font-bold mt-vm sm:mt-sm md:mt-md lg:mt-lg xl:mt-xl dark:text-white">
+            {t("konten-fitur.Judul-Layanan-Public1")}{" "}
             {t("konten-fitur.Judul-Layanan-Public2")}
           </h2>
 
-          <p className=" text-lg mt-2 text-left lg:text-lg  dark:text-gray">
+          <p className=" text-vm-card-desc sm:text-sm-card-desc md:text-md-card-desc lg:text-lg-card-desc xl:text-xl-card-desc mt-vm sm:mt-sm md:mt-md lg:mt-lg xl:mt-xl font-normal dark:text-gray">
             {t("konten-fitur.Deskripsi-Layanan-Public")}
           </p>
         </div>
@@ -59,12 +59,12 @@ const Feature = () => {
             </svg>
           </div>
 
-          <h2 className=" text-2xl font-bold mt-4   lg:text-2xl   dark:text-white">
-            {t("konten-fitur.Judul-Kota-Iot1")} <br></br>
+          <h2 className="text-vm-card-title sm:text-sm-card-title md:text-md-card-title lg:text-lg-card-title xl:text-xl-card-title font-bold mt-vm sm:mt-sm md:mt-md lg:mt-lg xl:mt-xl dark:text-white">
+            {t("konten-fitur.Judul-Kota-Iot1")}{" "}
             {t("konten-fitur.Judul-Kota-Iot2")}
           </h2>
 
-          <p className=" text-lg mt-2 text-left lg:text-lg  dark:text-gray">
+          <p className="text-vm-card-desc sm:text-sm-card-desc md:text-md-card-desc lg:text-lg-card-desc xl:text-xl-card-desc mt-vm sm:mt-sm md:mt-md lg:mt-lg xl:mt-xl  font-normal dark:text-gray">
             {t("konten-fitur.Deskripsi-Kota-Iot")}
           </p>
         </div>
@@ -86,12 +86,12 @@ const Feature = () => {
             </svg>
           </div>
 
-          <h2 className=" text-2xl font-bold  mt-4 lg:text-2xl  dark:text-white">
-            {t("konten-fitur.Judul-Menerapkan-Smart1")} <br></br>
+          <h2 className="text-vm-card-title sm:text-sm-card-title md:text-md-card-title lg:text-lg-card-title xl:text-xl-card-title font-bold mt-vm sm:mt-sm md:mt-md lg:mt-lg xl:mt-xl dark:text-white">
+            {t("konten-fitur.Judul-Menerapkan-Smart1")}{" "}
             {t("konten-fitur.Judul-Menerapkan-Smart2")}
           </h2>
 
-          <p className=" text-lg  mt-2  text-left lg:text-lg  dark:text-gray">
+          <p className=" text-vm-card-desc sm:text-sm-card-desc md:text-md-card-desc lg:text-lg-card-desc xl:text-xl-card-desc mt-vm sm:mt-sm md:mt-md lg:mt-lg xl:mt-xl  font-normal dark:text-gray">
             {t("konten-fitur.Deskirpsi-Menerapkan-Smart")}
           </p>
         </div>

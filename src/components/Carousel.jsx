@@ -7,7 +7,7 @@ const Carousel = () => {
   const { t, i18n } = useTranslation();
 
   return (
-    <section className="relative w-full bg-white dark:bg-dark py-[100px] md:pt-[120px] md:pb-[80px]">
+    <section className="relative w-full bg-white dark:bg-dark pt-[120px] pb-[100px] md:pt-[120px] md:pb-[80px]">
       <aside className="relative font-poppins text-dark dark:text-white text-[36px] sm:text-[42px] md:text-[48px] lg:text-[52px] font-bold flex flex-col gap-2 justify-center items-center z-20">
         <h1>{t("konten-carousel.judul")}</h1>
         <h2>{t("konten-carousel.deskripsi")}</h2>

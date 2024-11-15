@@ -14,18 +14,21 @@ const Project = () => {
       id="proyek"
     >
       <section className="flex flex-col gap-2 ">
-        <h2 className="font-poppins font-bold text-vm-title sm:text-sm-title md:text-md-title lg:text-lg-title xl:text-xl-title text-center text-dark dark:text-secondary">
+        <h2 className="font-poppins font-bold text-vm-title sm:text-sm-title md:text-md-title lg:text-lg-title xl:text-xl-title text-center text-dark dark:text-secondary pt-8 mb-2">
           {t("konten-proyek.judul")}
         </h2>
 
-        <p className="font-poppins font-medium text-vm-desc sm:text-sm-desc md:text-md-desc lg:text-lg-desc xl:text-xl-desc text-center text-dark dark:text-secondary">
+        <p className="font-poppins font-normal text-vm-desc sm:text-sm-desc md:text-md-desc lg:text-lg-desc xl:text-xl-desc text-center text-dark dark:text-secondary mb-4 sm:mb-6 md:mb-md w-10/12 lg:w-2/3 mx-auto">
           {t("konten-proyek.deskripsi")}
         </p>
       </section>
 
       <section className="flex flex-wrap xl:flex-nowrap flex-row gap-6 w-full">
         <aside className="flex flex-col sm:flex-row xl:flex-col gap-6 basis-full xl:basis-4/12">
-          <div className="relative rounded-[10px] w-full h-[240px] sm:h-auto sm:w-1/2 xl:w-auto xl:h-2/3">
+          <div
+            data-aos="fade-down"
+            className="relative rounded-[10px] w-full h-[240px] sm:h-auto sm:w-1/2 xl:w-auto xl:h-2/3"
+          >
             <div className="bg-gradient-to-t from-black to-white opacity-40 absolute top-0 left-0 w-full h-full z-10 rounded-[10px]"></div>
             <img
               src={projectPlaza}
@@ -40,12 +43,15 @@ const Project = () => {
               <span className="font-poppins font-semibold text-vm-card-title sm:text-sm-card-title md:text-md-card-title lg:text-lg-card-title xl:text-xl-card-title">
                 {t("konten-proyek.judul-proyek.proyek-1")}
               </span>
-              <p className="font-poppins font-normal italic text-vm-card-desc sm:text-sm-card-desc md:text-md-card-desc lg:text-lg-card-desc xl:text-xl-card-desc line-clamp-2">
+              <p className="font-poppins font-light italic text-vm-card-desc sm:text-sm-card-desc md:text-md-card-desc lg:text-lg-card-desc xl:text-xl-card-desc line-clamp-2">
                 {t("konten-proyek.deskripsi-proyek.proyek-1")}
               </p>
             </div>
           </div>
-          <div className="relative rounded-[10px] w-full h-[240px] sm:h-auto sm:w-1/2 xl:w-auto xl:h-1/3">
+          <div
+            data-aos="fade-down"
+            className="relative rounded-[10px] w-full h-[240px] sm:h-auto sm:w-1/2 xl:w-auto xl:h-1/3"
+          >
             <div className="bg-gradient-to-t from-black to-white opacity-40 absolute top-0 left-0 w-full h-full z-10 rounded-[10px] box-border"></div>
             <img
               src={projectTaxi}
@@ -60,14 +66,17 @@ const Project = () => {
               <span className="font-poppins font-semibold text-vm-card-title sm:text-sm-card-title md:text-md-card-title lg:text-lg-card-title xl:text-xl-card-title">
                 {t("konten-proyek.judul-proyek.proyek-2")}
               </span>
-              <p className="font-poppins font-normal italic text-vm-card-desc sm:text-sm-card-desc md:text-md-card-desc lg:text-lg-card-desc xl:text-xl-card-desc line-clamp-2">
+              <p className="font-poppins font-light italic text-vm-card-desc sm:text-sm-card-desc md:text-md-card-desc lg:text-lg-card-desc xl:text-xl-card-desc line-clamp-2">
                 {t("konten-proyek.deskripsi-proyek.proyek-2")}
               </p>
             </div>
           </div>
         </aside>
         <aside className="flex flex-col gap-6 basis-full h-2/3 xl:h-auto xl:basis-3/12">
-          <div className="relative rounded-[10px] h-[240px] sm:h-[280px] lg:h-[320px] xl:h-full">
+          <div
+            data-aos="fade-down"
+            className="relative rounded-[10px] h-[240px] sm:h-[280px] lg:h-[320px] xl:h-full"
+          >
             <div className="bg-gradient-to-t from-black to-white opacity-40 absolute top-0 left-0 w-full h-full z-10 rounded-[10px]"></div>
             <img
               src={projectMall}
@@ -82,14 +91,17 @@ const Project = () => {
               <span className="font-poppins font-semibold text-vm-card-title sm:text-sm-card-title md:text-md-card-title lg:text-lg-card-title xl:text-xl-card-title">
                 {t("konten-proyek.judul-proyek.proyek-3")}
               </span>
-              <p className="font-poppins font-normal italic text-vm-card-desc sm:text-sm-card-desc md:text-md-card-desc lg:text-lg-card-desc xl:text-xl-card-desc line-clamp-2">
+              <p className="font-poppins font-light italic text-vm-card-desc sm:text-sm-card-desc md:text-md-card-desc lg:text-lg-card-desc xl:text-xl-card-desc line-clamp-2">
                 {t("konten-proyek.deskripsi-proyek.proyek-3")}
               </p>
             </div>
           </div>
         </aside>
         <aside className="flex flex-col sm:flex-row xl:flex-col gap-6 basis-full xl:basis-5/12">
-          <div className="relative rounded-[10px] w-full sm:w-1/2 xl:w-auto h-[240px] sm:h-full xl:h-1/2">
+          <div
+            data-aos="fade-down"
+            className="relative rounded-[10px] w-full sm:w-1/2 xl:w-auto h-[240px] sm:h-full xl:h-1/2"
+          >
             <div className="bg-gradient-to-t from-black to-white opacity-40 absolute top-0 left-0 w-full h-full z-10 rounded-[10px]"></div>
             <img
               src={projectCharging}
@@ -104,12 +116,15 @@ const Project = () => {
               <span className="font-poppins font-semibold text-vm-card-title sm:text-sm-card-title md:text-md-card-title lg:text-lg-card-title xl:text-xl-card-title">
                 {t("konten-proyek.judul-proyek.proyek-4")}
               </span>
-              <p className="font-poppins font-normal italic text-vm-card-desc sm:text-sm-card-desc md:text-md-card-desc lg:text-lg-card-desc xl:text-xl-card-desc line-clamp-2">
+              <p className="font-poppins font-light italic text-vm-card-desc sm:text-sm-card-desc md:text-md-card-desc lg:text-lg-card-desc xl:text-xl-card-desc line-clamp-2">
                 {t("konten-proyek.deskripsi-proyek.proyek-4")}
               </p>
             </div>
           </div>
-          <div className="relative rounded-[10px] w-full sm:w-1/2 xl:w-auto h-[240px] sm:h-full xl:h-1/2">
+          <div
+            data-aos="fade-down"
+            className="relative rounded-[10px] w-full sm:w-1/2 xl:w-auto h-[240px] sm:h-full xl:h-1/2"
+          >
             <div className="bg-gradient-to-t from-black to-white opacity-40 absolute top-0 left-0 w-full h-full z-10 rounded-[10px]"></div>
             <img
               src={projectKereta}
@@ -124,7 +139,7 @@ const Project = () => {
               <span className="font-poppins font-semibold text-vm-card-title sm:text-sm-card-title md:text-md-card-title lg:text-lg-card-title xl:text-xl-card-title">
                 {t("konten-proyek.judul-proyek.proyek-5")}
               </span>
-              <p className="font-poppins font-normal italic text-vm-card-desc sm:text-sm-card-desc md:text-md-card-desc lg:text-lg-card-desc xl:text-xl-card-desc line-clamp-2">
+              <p className="font-poppins font-light italic text-vm-card-desc sm:text-sm-card-desc md:text-md-card-desc lg:text-lg-card-desc xl:text-xl-card-desc line-clamp-2">
                 {t("konten-proyek.deskripsi-proyek.proyek-5")}
               </p>
             </div>

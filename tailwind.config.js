@@ -1,10 +1,6 @@
 export default {
   darkMode: "class",
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
-  content: [
-    "./index.html",
-    "./src/**/*.{js,jsx,ts,tsx}", // Perhatikan dua tanda bintang '**' untuk mencakup semua sub-folder
-  ],
   theme: {
     extend: {
       fontFamily: {
@@ -17,11 +13,11 @@ export default {
         "lg-title": "30px",
         "xl-title": "32px",
 
-        "vm-desc": "14px",
-        "sm-desc": "16px",
-        "md-desc": "18px",
-        "lg-desc": "20px",
-        "xl-desc": "22px",
+        "vm-desc": "16px",
+        "sm-desc": "18px",
+        "md-desc": "20px",
+        "lg-desc": "22px",
+        "xl-desc": "24px",
 
         "vm-card-title": "18px",
         "sm-card-title": "20px",
@@ -29,11 +25,11 @@ export default {
         "lg-card-title": "24px",
         "xl-card-title": "26px",
 
-        "vm-card-desc": "14px",
-        "sm-card-desc": "16px",
-        "md-card-desc": "18px",
-        "lg-card-desc": "20px",
-        "xl-card-desc": "22px",
+        "vm-card-desc": "12px",
+        "sm-card-desc": "14px",
+        "md-card-desc": "16px",
+        "lg-card-desc": "18px",
+        "xl-card-desc": "20px",
 
         "vm-card-tag": "14px",
         "sm-card-tag": "16px",
@@ -48,18 +44,8 @@ export default {
         "xl-card-date": "20px",
       },
       spacing: {
-        vm: "8px",
-        sm: "12px",
-        md: "16px",
-        lg: "20px",
-        xl: "24px",
-      },
-      fontFamily: {
-        poppins: ["Poppins"],
-      },
-      spacing: {
-        vm: "8px",
-        sm: "12px",
+        vm: "16px",
+        sm: "16px",
         md: "16px",
         lg: "20px",
         xl: "24px",
@@ -71,6 +57,12 @@ export default {
         gray: "#666666",
         semidark: "#2B2B2B",
       },
+      fontColor: {
+        "title-color": "#080809",
+        "desc-color": "#2B2B2B",
+        "card-desc-color": "#2B2B2B",
+        "card-date-color": "#666666",
+      },
       boxShadow: {
         "custom-dark": "0 2px 54px rgba(170, 170, 170, 0.28)",
       },
@@ -82,13 +74,6 @@ export default {
         dark: "#080809",
         gray: "#666666",
         semidark: "#2B2B2B",
-      },
-      boxShadow: {
-        "custom-dark": "0 2px 54px rgba(170, 170, 170, 0.28)",
-      },
-      gradientColorStops: {
-        "start-primary": "#EEB25C",
-        "end-primary": "#F9CA86",
       },
     },
   },
