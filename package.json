@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "aos": "^3.0.0-beta.6",
     "i18next": "^23.16.5",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
