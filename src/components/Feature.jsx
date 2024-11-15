@@ -5,7 +5,7 @@ const Feature = () => {
 
   return (
     <div
-      className="px-vm sm:px-sm lg:px-lg xl:px-xl h-auto py-[80px] mt-[-1px] font-poppins bg-white dark:bg-dark"
+      className="px-vm sm:px-sm lg:px-lg xl:px-xl h-auto pt-[20px] pb-[80px] mt-[-1px] font-poppins  dark:bg-dark"
       id="jelajahi"
     >
       <div className="text-center dark:text-white mb-6">

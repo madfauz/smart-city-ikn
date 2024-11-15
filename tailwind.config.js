@@ -44,18 +44,8 @@ export default {
         "xl-card-date": "20px",
       },
       spacing: {
-        vm: "8px",
-        sm: "12px",
-        md: "16px",
-        lg: "20px",
-        xl: "24px",
-      },
-      fontFamily: {
-        poppins: ["Poppins"],
-      },
-      spacing: {
-        vm: "8px",
-        sm: "12px",
+        vm: "16px",
+        sm: "16px",
         md: "16px",
         lg: "20px",
         xl: "24px",
@@ -78,13 +68,6 @@ export default {
         dark: "#080809",
         gray: "#666666",
         semidark: "#2B2B2B",
-      },
-      boxShadow: {
-        "custom-dark": "0 2px 54px rgba(170, 170, 170, 0.28)",
-      },
-      gradientColorStops: {
-        "start-primary": "#EEB25C",
-        "end-primary": "#F9CA86",
       },
     },
   },
