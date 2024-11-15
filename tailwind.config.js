@@ -13,11 +13,11 @@ export default {
         "lg-title": "30px",
         "xl-title": "32px",
 
-        "vm-desc": "14px",
-        "sm-desc": "16px",
-        "md-desc": "18px",
-        "lg-desc": "20px",
-        "xl-desc": "22px",
+        "vm-desc": "16px",
+        "sm-desc": "18px",
+        "md-desc": "20px",
+        "lg-desc": "22px",
+        "xl-desc": "24px",
 
         "vm-card-title": "18px",
         "sm-card-title": "20px",
