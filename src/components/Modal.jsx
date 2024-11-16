@@ -21,13 +21,13 @@ function Modal({ isOpen, onClose, contentType }) {
             alt="gambar berita-1"
             className="w-full h-40 sm:h-56 md:h-80 lg:h-80  object-cover rounded-lg mt-4 "
           />
-          <p className="vm-card-date sm-card-date md-card-date lg-card-date xl-card-date font-poppins dark:text-white py-4 text-gray">
+          <p className="vm-card-date sm-card-date md-card-date lg-card-date xl-card-date font-poppins dark:text-semilight py-4 text-gray">
             {t("card-berita.tanggal_berita.berita-1")}
           </p>
           <h2 className="vm-title sm-title md-title lg-title xl-title font-poppins dark:text-white pb-4 font-bold">
             {t("card-berita.judul_berita.berita-1")}
           </h2>
-          <p className="vm-card-desc sm-card-desc md-card-desc lg-card-desc xl-card-desc font-poppins text-semidark dark:text-white">
+          <p className="vm-card-desc sm-card-desc md-card-desc lg-card-desc xl-card-desc font-poppins text-semidark dark:text-semilight">
             <div>
               {t("card-berita.isi_berita.berita-1", {
                 returnObjects: true,
@@ -47,13 +47,13 @@ function Modal({ isOpen, onClose, contentType }) {
             alt="gambar berita-2"
             className="w-full h-40 sm:h-56 md:h-80 lg:h-80  object-cover rounded-lg mt-4 "
           />
-          <p className="vm-card-date sm-card-date md-card-date lg-card-date xl-card-date font-poppins dark:text-white py-4 text-gray">
+          <p className="vm-card-date sm-card-date md-card-date lg-card-date xl-card-date font-poppins dark:text-semilight py-4 text-gray">
             {t("card-berita.tanggal_berita.berita-2")}
           </p>
           <h2 className="vm-title sm-title md-title lg-title xl-title font-poppins dark:text-white pb-4 font-bold">
             {t("card-berita.judul_berita.berita-2")}
           </h2>
-          <p className="vm-card-desc sm-card-desc md-card-desc lg-card-desc xl-card-desc font-poppins text-semidark dark:text-white">
+          <p className="vm-card-desc sm-card-desc md-card-desc lg-card-desc xl-card-desc font-poppins text-semidark dark:text-semilight">
             <div>
               {t("card-berita.isi_berita.berita-2", {
                 returnObjects: true,
@@ -73,13 +73,13 @@ function Modal({ isOpen, onClose, contentType }) {
             alt="gambar berita-3"
             className="w-full h-40 sm:h-56 md:h-80 lg:h-80  object-cover rounded-lg mt-4 "
           />
-          <p className="vm-card-date sm-card-date md-card-date lg-card-date xl-card-date font-poppins dark:text-white py-4 text-gray">
+          <p className="vm-card-date sm-card-date md-card-date lg-card-date xl-card-date font-poppins dark:text-semilight py-4 text-gray">
             {t("card-berita.tanggal_berita.berita-3")}
           </p>
           <h2 className="vm-title sm-title md-title lg-title xl-title font-poppins dark:text-white pb-4 font-bold">
             {t("card-berita.judul_berita.berita-3")}
           </h2>
-          <p className="vm-card-desc sm-card-desc md-card-desc lg-card-desc xl-card-desc font-poppins text-semidark dark:text-white">
+          <p className="vm-card-desc sm-card-desc md-card-desc lg-card-desc xl-card-desc font-poppins text-semidark dark:text-semilight">
             <div>
               {t("card-berita.isi_berita.berita-3", {
                 returnObjects: true,
@@ -114,7 +114,7 @@ function Modal({ isOpen, onClose, contentType }) {
       ></div>
       {/*Container*/}
       <div
-        className="dark:bg-dark pb-6 mx-4 rounded-tl-lg rounded-tr-lg relative bg-white dark:bg-gray-800 w-full max-w-4xl mx-auto rounded shadow-lg z-50 overflow-y-auto"
+        className="dark:border-semilight dark:border-2  dark:bg-dark pb-6 mx-4 rounded-tl-lg rounded-tr-lg relative bg-white w-full max-w-4xl mx-auto rounded shadow-lg z-50 overflow-y-auto"
         onClick={(e) => e.stopPropagation()}
       >
         <div className="scrollbar-hide rounded-tl-lg rounded-tr-lg dark:bg-dark modal-content py-4 text-left px-6 max-h-[80vh] overflow-y-auto">
@@ -130,7 +130,7 @@ function Modal({ isOpen, onClose, contentType }) {
         <div className="flex justify-center dark:bg-dark">
           <button
             onClick={onClose}
-            className="vm-desc sm-desc md-desc lg-desc xl-desc font-poppins modal-close px-4 bg-gray-100 dark:bg-gray-700 p-3 rounded-lg text-black dark:text-primary text-primary hover:bg-gray-200"
+            className="vm-desc sm-desc md-desc lg-desc xl-desc font-poppins modal-close px-4 bg-secondary dark:bg-semidark  p-3 rounded-lg text-dark dark:text-primary text-primary hover:bg-primary hover:text-white  dark:hover:bg-primary dark:hover:text-white "
           >
             {t("card-berita.penutup-berita.tombol-penutup")}
           </button>

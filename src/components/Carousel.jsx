@@ -8,7 +8,7 @@ const Carousel = () => {
 
   return (
     <section className="relative w-full bg-white dark:bg-dark pt-[120px] pb-[100px] md:pt-[120px] md:pb-[80px]">
-      <aside className="relative font-poppins text-dark dark:text-white text-[36px] sm:text-[42px] md:text-[48px] lg:text-[52px] font-bold flex flex-col gap-2 justify-center items-center z-20">
+      <aside className="relative font-poppins text-title-color dark:text-white text-[36px] sm:text-[42px] md:text-[48px] lg:text-[52px] font-bold flex flex-col gap-2 justify-center items-center z-20">
         <h1>{t("konten-carousel.judul")}</h1>
         <h2>{t("konten-carousel.deskripsi")}</h2>
       </aside>
@@ -90,14 +90,14 @@ const Carousel = () => {
           />
         </div>
       </aside>
-      <aside className="relative w-3/4 lg:w-1/2 mx-auto flex flex-col sm:flex-row items-center justify-center gap-2 md:gap-4 lg:gap-6 z-20">
-        <div className="font-poppins font-normal text-[16px] sm:text-[24px] md:text-[28px] lg:text-[32px] text-dark dark:text-white text-end md:w-1/2">
+      <aside className="relative w-3/4  sm:w-2/3 md:w-2/3 lg:w-[60%] mx-auto flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-6 md:gap-4 lg:gap-0 z-20">
+        <div className="font-poppins font-normal text-[16px] sm:text-[24px] md:text-[28px] lg:text-[32px] text-decs-color dark:text-white text-end md:w-1/2">
           {t("konten-carousel.text-bawah")}
         </div>
         <div className="w-1/3 flex justify-center items-center">
           <a
             href="#jelajahi"
-            className="rounded-full bg-dark dark:bg-white flex items-center gap-2 py-2 md:py-3 lg:py-4 px-4 md:px-6 lg:px-8 cursor-pointer hover:bg-primary dark:hover:bg-primary"
+            className="rounded-full bg-dark dark:bg-white flex items-center gap-2 py-4 px-6 sm:py-4 sm:px-6 md:py-3 lg:py-4 px-4 md:px-6 lg:px-8 cursor-pointer hover:bg-primary dark:hover:bg-primary"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"

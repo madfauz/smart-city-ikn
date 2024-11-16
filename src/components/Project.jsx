@@ -14,11 +14,11 @@ const Project = () => {
       id="proyek"
     >
       <section className="flex flex-col gap-2 ">
-        <h2 className="font-poppins font-bold text-vm-title sm:text-sm-title md:text-md-title lg:text-lg-title xl:text-xl-title text-center text-dark dark:text-secondary pt-8 mb-2">
+        <h2 className="font-poppins font-bold text-vm-title sm:text-sm-title md:text-md-title lg:text-lg-title xl:text-xl-title text-center text-title-color dark:text-white pt-8 mb-2">
           {t("konten-proyek.judul")}
         </h2>
 
-        <p className="font-poppins font-normal text-vm-desc sm:text-sm-desc md:text-md-desc lg:text-lg-desc xl:text-xl-desc text-center text-dark dark:text-secondary mb-4 sm:mb-6 md:mb-md w-10/12 lg:w-2/3 mx-auto">
+        <p className="font-poppins font-normal text-vm-desc sm:text-sm-desc md:text-md-desc lg:text-lg-desc xl:text-xl-desc text-center text-desc-color dark:text-semilight mb-4 sm:mb-6 md:mb-md w-10/12 lg:w-2/3 mx-auto">
           {t("konten-proyek.deskripsi")}
         </p>
       </section>
@@ -86,7 +86,6 @@ const Project = () => {
             <span className="font-poppins font-semibold absolute z-20 top-0 left-0 px-4 py-2 text-vm-card-tag sm:text-sm-card-tag md:text-md-card-tag lg:text-lg-card-tag xl:text-xl-card-tag text-white bg-primary rounded-tl-[10px] rounded-br-[10px]">
               {t("konten-proyek.tipe-proyek.proyek-3")}
             </span>
-
             <div className="absolute z-20 bottom-4 left-4 text-white">
               <span className="font-poppins font-semibold text-vm-card-title sm:text-sm-card-title md:text-md-card-title lg:text-lg-card-title xl:text-xl-card-title">
                 {t("konten-proyek.judul-proyek.proyek-3")}
