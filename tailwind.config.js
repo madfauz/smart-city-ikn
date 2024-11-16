@@ -56,6 +56,7 @@ export default {
         dark: "#080809",
         gray: "#666666",
         semidark: "#2B2B2B",
+        semilight: "#E1E1E1",
       },
       fontColor: {
         "title-color": "#080809",

@@ -13,7 +13,7 @@ const Feature = () => {
           {t("konten-fitur.judul")}
         </h2>
 
-        <p className="text-vm-desc sm:text-sm-desc md:text-md-desc lg:text-lg-desc xl:text-xl-desc font-medium mb-4 sm:mb-6 md:mb-md w-10/12 lg:w-2/3 mx-auto">
+        <p className="text-vm-desc sm:text-sm-desc md:text-md-desc lg:text-lg-desc xl:text-xl-desc font-medium mb-4 sm:mb-6 md:mb-md w-10/12 lg:w-2/3 mx-auto text-semidark dark:text-semilight">
           {t("konten-fitur.Deskripsi1")} {t("konten-fitur.Deskripsi2")}
         </p>
       </div>
@@ -39,7 +39,7 @@ const Feature = () => {
             {t("konten-fitur.Judul-Layanan-Public2")}
           </h2>
 
-          <p className=" text-vm-card-desc sm:text-sm-card-desc md:text-md-card-desc lg:text-lg-card-desc xl:text-xl-card-desc mt-vm sm:mt-sm md:mt-md lg:mt-lg xl:mt-xl font-normal dark:text-gray">
+          <p className=" text-vm-card-desc sm:text-sm-card-desc md:text-md-card-desc lg:text-lg-card-desc xl:text-xl-card-desc mt-vm sm:mt-sm md:mt-md lg:mt-lg xl:mt-xl font-normal text-semidark dark:text-semilight">
             {t("konten-fitur.Deskripsi-Layanan-Public")}
           </p>
         </div>
@@ -64,7 +64,7 @@ const Feature = () => {
             {t("konten-fitur.Judul-Kota-Iot2")}
           </h2>
 
-          <p className="text-vm-card-desc sm:text-sm-card-desc md:text-md-card-desc lg:text-lg-card-desc xl:text-xl-card-desc mt-vm sm:mt-sm md:mt-md lg:mt-lg xl:mt-xl  font-normal dark:text-gray">
+          <p className="text-vm-card-desc sm:text-sm-card-desc md:text-md-card-desc lg:text-lg-card-desc xl:text-xl-card-desc mt-vm sm:mt-sm md:mt-md lg:mt-lg xl:mt-xl  font-normal  text-semidark dark:text-semilight">
             {t("konten-fitur.Deskripsi-Kota-Iot")}
           </p>
         </div>
@@ -91,7 +91,7 @@ const Feature = () => {
             {t("konten-fitur.Judul-Menerapkan-Smart2")}
           </h2>
 
-          <p className=" text-vm-card-desc sm:text-sm-card-desc md:text-md-card-desc lg:text-lg-card-desc xl:text-xl-card-desc mt-vm sm:mt-sm md:mt-md lg:mt-lg xl:mt-xl  font-normal dark:text-gray">
+          <p className=" text-vm-card-desc sm:text-sm-card-desc md:text-md-card-desc lg:text-lg-card-desc xl:text-xl-card-desc mt-vm sm:mt-sm md:mt-md lg:mt-lg xl:mt-xl  font-normal  text-semidark dark:text-semilight">
             {t("konten-fitur.Deskirpsi-Menerapkan-Smart")}
           </p>
         </div>
