@@ -20,7 +20,7 @@ const Feature = () => {
 
       <div className="grid grid-cols-1 gap-[20px] md:grid-cols-3">
         <div
-          data-aos="fade-right"
+          data-aos="fade-down"
           className="shadow-custom-dark w-full h-auto bg-white p-4 rounded-[20px] dark:border-gray dark:border-2 dark:bg-dark"
         >
           <div className="w-[80px] h-[80px] bg-primary rounded-xl flex justify-center items-center">
@@ -48,7 +48,7 @@ const Feature = () => {
         </div>
 
         <div
-          data-aos="fade-up"
+          data-aos="fade-down"
           className="shadow-custom-dark  w-full h-auto bg-white p-4 rounded-[20px]  dark:border-gray dark:border-2 dark:bg-dark"
         >
           <div className="w-[80px] h-[80px] bg-primary rounded-xl flex justify-center items-center">

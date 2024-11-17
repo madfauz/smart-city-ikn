@@ -8,9 +8,11 @@ const Carousel = () => {
 
   return (
     <section className="relative w-full bg-white dark:bg-dark pt-[120px] pb-[100px] md:pt-[120px] md:pb-[80px]">
-      <aside className="relative font-poppins text-title-color dark:text-white text-[36px] sm:text-[42px] md:text-[48px] lg:text-[52px] font-bold flex flex-col gap-2 justify-center items-center z-20">
+      <aside className="tracking-tight relative font-raleway text-title-color dark:text-white text-[36px] sm:text-[42px] md:text-[48px] lg:text-[52px] font-bold flex flex-col justify-center items-center z-20">
         <h1>{t("konten-carousel.judul")}</h1>
-        <h2>{t("konten-carousel.deskripsi")}</h2>
+        <h2 className="bg-gradient-to-r from-start-primary to-end-primary bg-clip-text text-transparent">
+          {t("konten-carousel.deskripsi")}
+        </h2>
       </aside>
       <aside className="relative z-20">
         <div className="relative mx-auto my-[50px] w-[70%] sm:w-2/3 md:w-1/2 lg:w-[50%]">

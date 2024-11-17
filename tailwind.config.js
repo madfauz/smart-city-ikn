@@ -5,6 +5,7 @@ export default {
     extend: {
       fontFamily: {
         poppins: ["Poppins"],
+        raleway: ["Raleway"],
       },
       fontSize: {
         "vm-title": "24px",
