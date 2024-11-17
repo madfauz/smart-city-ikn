@@ -9,7 +9,7 @@ const Feature = () => {
       id="jelajahi"
     >
       <div className="text-center dark:text-white mb-6">
-        <h2 className="text-vm-title sm:text-sm-title md:text-md-title lg:text-lg-title xl:text-xl-title font-bold pt-8 mb-2 w-10/12 lg:w-2/3 mx-auto">
+        <h2 className="text-vm-title sm:text-sm-title md:text-md-title lg:text-lg-title xl:text-xl-title font-bold pt-8 mb-2 w-10/12 lg:w-2/3 mx-auto text-dark">
           {t("konten-fitur.judul")}
         </h2>
 
