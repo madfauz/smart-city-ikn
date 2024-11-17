@@ -10,7 +10,7 @@ const Project = () => {
 
   return (
     <div
-      className={`relative z-20 flex mt-[-2px] md:py-2 flex-col gap-4 md:gap-8 px-vm sm:px-sm md:px-md lg:px-lg xl:px-xl dark:bg-dark`}
+      className={`relative z-20 flex mt-[-2px] pb-4 md:pb-8 md:py-2 flex-col gap-4 md:gap-8 px-vm sm:px-sm md:px-md lg:px-lg xl:px-xl dark:bg-dark`}
       id="proyek"
     >
       <section className="flex flex-col gap-2 ">
