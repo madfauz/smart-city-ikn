@@ -15,7 +15,7 @@ const Footer = () => {
               className="w-28 h-auto sm:w-32 md:w-40 lg:w-48"
             />
             <h2 className="text-vm-desc sm:text-sm-desc md:text-md-desc lg:text-lg-desc xl:text-xl-desc font-poppins mt-4 font-semibold tracking-tight  text-white">
-              Smart Sustainable Forest City
+              {t("footer.baris-pertama.bawah-logo")}
             </h2>
           </div>
 
