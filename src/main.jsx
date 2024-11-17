@@ -8,7 +8,7 @@ import "aos/dist/aos.css";
 
 AOS.init();
 AOS.init({
-  once: false,
+  once: true,
   offset: 150,
   delay: 200,
   duration: 200,
