@@ -7,7 +7,7 @@ const Desc = () => {
         {t("konten-desc.judul")}
       </h2>
       <h4 className="w-3/4 md:w-1/2 lg:w-2/3 leading-8 md:leading-10 font-poppins font-normal text-center text-semidark dark:text-semilight md:text-left text-vm-desc sm:text-sm-desc md:text-md-desc lg:text-lg-desc xl:text-xl-desc">
-        {t("konten-proyek.deskripsi")}
+        {t("konten-desc.deskripsi")}
       </h4>
     </div>
   );

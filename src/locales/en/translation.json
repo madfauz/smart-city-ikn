@@ -35,7 +35,7 @@
 
   "bagian_berita": {
     "header_berita": "News",
-    "deskripsi_berita": "Latest news about smart city innovations and projects that build a smart city"
+    "deskripsi_berita": "Latest news about smart city innovations and projects that build a smart city."
   },
 
   "kategori-konten": {
@@ -113,7 +113,7 @@
   "konten-fitur": {
     "judul": "What are the advantages of IKN Smart City",
     "Deskripsi1": "There are many advantages of IKN Smart City",
-    "Deskripsi2": "provide benefits to everyone",
+    "Deskripsi2": "provide benefits to everyone.",
 
     "Judul-Layanan-Public1": "Public Service ",
     "Judul-Layanan-Public2": "integrate",
