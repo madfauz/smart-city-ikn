@@ -94,7 +94,7 @@ function News() {
         />
 
         {/*News Cards*/}
-        <div className="inline-flex sm:grid sm:grid-cols-2 lg:grid-cols-3 gap-4 pt-4 pb-10 overflow-auto scrollbar-hide">
+        <div className="inline-flex sm:grid sm:grid-cols-2 lg:grid-cols-3 gap-4 md:pt-4 pb-10 overflow-auto scrollbar-hide">
           {/*Card 1*/}
           {(selectedCategory === "kategori-1" ||
             selectedCategory === "kategori-2") && (
