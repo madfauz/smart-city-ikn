@@ -11,7 +11,7 @@ AOS.init({
   once: true,
   offset: 150,
   delay: 200,
-  duration: 200,
+  duration: 700,
 });
 createRoot(document.getElementById("root")).render(
   <StrictMode>
