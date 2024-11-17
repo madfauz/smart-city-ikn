@@ -19,7 +19,7 @@ function Modal({ isOpen, onClose, contentType }) {
           <img
             src={berita1}
             alt="gambar berita-1"
-            className="w-full h-40 sm:h-56 md:h-80 lg:h-80  object-cover rounded-lg mt-4 "
+            className="w-full h-40 sm:h-56 md:h-80 lg:h-80  object-cover rounded-lg "
           />
           <p className="vm-card-date sm-card-date md-card-date lg-card-date xl-card-date font-poppins dark:text-semilight py-4 text-gray">
             {t("card-berita.tanggal_berita.berita-1")}
@@ -45,7 +45,7 @@ function Modal({ isOpen, onClose, contentType }) {
           <img
             src={berita2}
             alt="gambar berita-2"
-            className="w-full h-40 sm:h-56 md:h-80 lg:h-80  object-cover rounded-lg mt-4 "
+            className="w-full h-40 sm:h-56 md:h-80 lg:h-80  object-cover rounded-lg  "
           />
           <p className="vm-card-date sm-card-date md-card-date lg-card-date xl-card-date font-poppins dark:text-semilight py-4 text-gray">
             {t("card-berita.tanggal_berita.berita-2")}
@@ -71,7 +71,7 @@ function Modal({ isOpen, onClose, contentType }) {
           <img
             src={berita3}
             alt="gambar berita-3"
-            className="w-full h-40 sm:h-56 md:h-80 lg:h-80  object-cover rounded-lg mt-4 "
+            className="w-full h-40 sm:h-56 md:h-80 lg:h-80  object-cover rounded-lg  "
           />
           <p className="vm-card-date sm-card-date md-card-date lg-card-date xl-card-date font-poppins dark:text-semilight py-4 text-gray">
             {t("card-berita.tanggal_berita.berita-3")}
@@ -114,6 +114,7 @@ function Modal({ isOpen, onClose, contentType }) {
       ></div>
       {/*Container*/}
       <div
+        data-aos="fade-up"
         className="dark:border-semilight dark:border-2  dark:bg-dark pb-6 mx-4 rounded-tl-lg rounded-tr-lg relative bg-white w-full max-w-4xl mx-auto rounded shadow-lg z-50 overflow-y-auto"
         onClick={(e) => e.stopPropagation()}
       >

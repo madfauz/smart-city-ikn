@@ -9,16 +9,20 @@ const Feature = () => {
       id="jelajahi"
     >
       <div className="text-center dark:text-white mb-6">
-        <h2 className="text-vm-title sm:text-sm-title md:text-md-desc lg:text-lg-title xl:text-xl-title font-bold pt-8 mb-2 w-10/12 lg:w-2/3 mx-auto">
+        <h2 className="text-vm-title sm:text-sm-title md:text-md-title lg:text-lg-title xl:text-xl-title font-bold pt-8 mb-2 w-10/12 lg:w-2/3 mx-auto">
           {t("konten-fitur.judul")}
         </h2>
-        <p className="text-vm-desc sm:text-sm-desc md:text-md-desc lg:text-lg-desc xl:text-xl-desc font-medium mb-4 sm:mb-6 md:mb-md w-10/12 lg:w-2/3 mx-auto text-semidark dark:text-semilight">
+
+        <p className="text-vm-desc sm:text-sm-desc md:text-md-desc lg:text-lg-desc xl:text-xl-desc font-normal mb-4 sm:mb-6 md:mb-md w-10/12 lg:w-2/3 mx-auto text-semidark dark:text-semilight">
           {t("konten-fitur.Deskripsi1")} {t("konten-fitur.Deskripsi2")}
         </p>
       </div>
 
       <div className="grid grid-cols-1 gap-[20px] md:grid-cols-3">
-        <div className="shadow-custom-dark w-full h-auto bg-white p-4 rounded-[20px] dark:border-gray dark:border-2 dark:bg-dark">
+        <div
+          data-aos="fade-right"
+          className="shadow-custom-dark w-full h-auto bg-white p-4 rounded-[20px] dark:border-gray dark:border-2 dark:bg-dark"
+        >
           <div className="w-[80px] h-[80px] bg-primary rounded-xl flex justify-center items-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -43,7 +47,10 @@ const Feature = () => {
           </p>
         </div>
 
-        <div className="shadow-custom-dark  w-full h-auto bg-white p-4 rounded-[20px]  dark:border-gray dark:border-2 dark:bg-dark">
+        <div
+          data-aos="fade-up"
+          className="shadow-custom-dark  w-full h-auto bg-white p-4 rounded-[20px]  dark:border-gray dark:border-2 dark:bg-dark"
+        >
           <div className="w-[80px] h-[80px] bg-primary rounded-xl flex justify-center items-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -68,7 +75,10 @@ const Feature = () => {
           </p>
         </div>
 
-        <div className="shadow-custom-dark  w-full h-auto bg-white p-4 rounded-[20px]  dark:border-gray dark:border-2 dark:bg-dark">
+        <div
+          data-aos="fade-down"
+          className="shadow-custom-dark  w-full h-auto bg-white p-4 rounded-[20px]  dark:border-gray dark:border-2 dark:bg-dark"
+        >
           <div className="w-[80px] h-[80px] bg-primary rounded-xl flex justify-center items-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"

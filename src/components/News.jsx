@@ -37,7 +37,8 @@ function News() {
         <h2 className="font-poppins pt-8 mb-2 text-vm-title sm:text-sm-title md:text-md-title lg:text-lg-title xl:text-xl-title font-bold tracking-tight title-color dark:text-white">
           {t("bagian_berita.header_berita")}
         </h2>
-        <p className="font-poppins dark:text-semilight text-vm-desc sm:text-sm-desc md:text-md-desc lg:text-lg-desc xl:text-xl-desc mb-4 sm:mb-6 md:mb-md desc-color">
+
+        <p className="font-poppins dark:text-semilight text-vm-desc sm:text-sm-desc md:text-md-desc lg:text-lg-desc xl:text-xl-desc mb-4 sm:mb-6 md:mb-md text-dark">
           {t("bagian_berita.deskripsi_berita")}
         </p>
       </div>

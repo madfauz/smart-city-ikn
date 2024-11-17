@@ -90,7 +90,7 @@ const Carousel = () => {
           />
         </div>
       </aside>
-      <aside className="relative w-3/4  sm:w-2/3 md:w-2/3 lg:w-[60%] mx-auto flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-6 md:gap-4 lg:gap-0 z-20">
+      <aside className="relative w-3/4  sm:w-2/3 md:w-2/3 lg:w-[60%] mx-auto flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6 md:gap-4 lg:gap-0 z-20">
         <div className="font-poppins font-normal text-[16px] sm:text-[24px] md:text-[28px] lg:text-[32px] text-decs-color dark:text-white text-end md:w-1/2">
           {t("konten-carousel.text-bawah")}
         </div>
